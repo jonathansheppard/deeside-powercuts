@@ -128,7 +128,11 @@ td.nw{white-space:nowrap}
 }
 .method{font-size:14px;color:var(--muted);max-width:760px}
 .method p{margin:0 0 8px}
-.footgap{height:30px}
+/* Inside a Deeside.com page, which supplies its own header, title and footer */
+body.embedded{background:transparent}
+body.embedded nav.site,body.embedded footer.dsf,body.embedded .crumb,body.embedded h1{display:none}
+body.embedded .wrap{max-width:none;padding:0}
+body.embedded .lede{margin-top:0}
 /* Deeside.com footer (scoped, replaces the theme's widget footer) */
 .dsf{--dsf-bg:#0d0d0d;--dsf-bar:#1a1a1a;--dsf-rule:#2c2c2c;--dsf-text:#bdbdbd;--dsf-accent:#88c425;background:var(--dsf-bg);color:var(--dsf-text);font-family:"Open Sans",Arial,sans-serif;font-size:15px;line-height:1.45;position:static}
 .dsf a{color:var(--dsf-text);text-decoration:none;font-weight:400}
@@ -241,6 +245,14 @@ td.nw{white-space:nowrap}
   </div>
 </footer>
 <script>
+/* When framed on deeside.com: hide the house header and footer, open links outside the frame, and tell the parent our height. */
+if (window.self !== window.top) {
+  document.body.classList.add("embedded");
+  const base = document.createElement("base"); base.target = "_blank"; document.head.append(base);
+  const size = () => { try { parent.postMessage({deesideWidget: "powercuts-page", height: document.querySelector("main").offsetHeight + 10}, "*"); } catch (e) {} };
+  addEventListener("resize", size);
+  if (window.ResizeObserver) new ResizeObserver(size).observe(document.querySelector("main"));
+}
 const DATA_URL = "data/powercuts.json", REFRESH_MS = 60000, STALE_MIN = 45; // publish.py sends a check-in at least every 30 minutes
 const SPEN = "https://powercuts.spenergynetworks.co.uk/list";
 const $ = id => document.getElementById(id);
