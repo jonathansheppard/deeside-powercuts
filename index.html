@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Power cuts in Flintshire | Deeside.com</title>
+<meta name="description" content="Live power cuts in Flintshire from SP Energy Networks, with restore estimates, postcodes affected and a running record of cuts by area. Checked every 5 minutes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--green:#88c425;--green-dk:#4d7a0c;--green-bg:#f6faee;--text:#2d2d2d;--muted:#6c757d;--border:#e9ecef;--bg:#f7f8f9;--red:#b91c1c;--red-bg:#fdecec;--amber:#b45309;--amber-bg:#fff4e0;--radius:10px;--grid:#eef0f2}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:'Open Sans',-apple-system,'Segoe UI',Roboto,Arial,sans-serif;font-size:16px;line-height:1.5}
+a{color:var(--green-dk)}
+.wrap{max-width:960px;margin:0 auto;padding:0 16px}
+nav.site{background:#000;min-height:80px;display:flex;align-items:center}
+nav.site .in{max-width:1140px;width:100%;margin:0 auto;padding:0 16px;display:flex;justify-content:space-between;align-items:center}
+nav.site .brand{display:block;max-width:250px;width:62%}
+nav.site .brand img{width:100%;display:block}
+nav.site ul{list-style:none;margin:0;padding:0}
+nav.site li{display:inline-block}
+nav.site li a{color:#fff;text-decoration:none;font-size:14px;margin:0 6px;text-transform:uppercase}
+nav.site li a:hover{text-decoration:underline}
+@media (max-width:760px){nav.site ul{display:none}}
+.crumb{font-size:13px;color:var(--muted);margin:22px 0 0}
+.crumb a{color:var(--muted)}
+h1{font-size:30px;line-height:1.2;margin:6px 0 8px;font-weight:800}
+h2{font-size:22px;margin:0 0 4px;font-weight:700}
+.lede{font-size:17px;margin:0 0 16px;max-width:720px}
+
+/* Status banner: the answer to "is there a cut?" */
+.status{display:flex;gap:14px;align-items:center;justify-content:space-between;flex-wrap:wrap;border-radius:var(--radius);padding:18px 20px;color:#fff;background:var(--muted)}
+.status.cut{background:var(--red)}
+.status.clear{background:var(--green-dk)}
+.status.stale{background:var(--amber)}
+.status .headline{font-size:24px;font-weight:800;line-height:1.2;display:flex;gap:12px;align-items:center}
+.status .mark{flex:none;width:30px;height:30px;border-radius:50%;background:#fff;display:grid;place-items:center;font-size:17px;font-weight:800;line-height:1}
+.status.cut .mark{color:var(--red)} .status.clear .mark{color:var(--green-dk)} .status.stale .mark{color:var(--amber)}
+.status .sub{font-size:14px;margin-top:4px;opacity:.95}
+.status .sub a{color:#fff}
+.call{flex:none;font-size:14px;line-height:1.3;border-left:2px solid rgba(255,255,255,.45);padding-left:14px}
+.call b{display:block;font-size:20px;font-weight:800}
+.call a{color:#fff;text-decoration:none}
+.checked{font-size:13px;color:var(--muted);margin:8px 0 24px}
+
+section{margin:0 0 30px}
+.sub-h{font-size:14px;color:var(--muted);margin:0 0 12px}
+.card{background:#fff;border:1px solid var(--border);border-left:5px solid var(--red);border-radius:var(--radius);padding:16px 18px;margin:0 0 10px}
+.card.planned{border-left-color:var(--amber)}
+.tag{display:inline-block;font-size:12px;font-weight:700;border-radius:4px;padding:1px 7px;margin-bottom:6px;background:var(--red-bg);color:var(--red)}
+.card.planned .tag{background:var(--amber-bg);color:var(--amber)}
+.card h3{font-size:20px;line-height:1.25;margin:0;font-weight:800}
+.area{font-size:14px;color:var(--muted)}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:6px 18px;margin:12px 0 0}
+.facts dt{font-size:12px;color:var(--muted)}
+.facts dd{margin:0;font-weight:700}
+.message{margin:12px 0 0;font-size:15px}
+.who{font-size:12px;color:var(--muted);display:block;margin-bottom:2px}
+details{margin-top:10px;font-size:14px}
+summary{cursor:pointer;color:var(--green-dk);font-weight:600}
+.pcs{margin:6px 0 0;color:var(--text)}
+.card a.more{display:inline-block;margin-top:10px;font-size:14px;font-weight:600}
+.none{background:#fff;border:1px solid var(--border);border-radius:var(--radius);padding:14px 18px;color:var(--muted);font-size:15px}
+
+.rows{background:#fff;border:1px solid var(--border);border-radius:var(--radius);overflow:hidden}
+.row{display:grid;grid-template-columns:1fr auto;gap:2px 16px;padding:11px 16px;border-top:1px solid var(--border);font-size:15px}
+.row:first-child{border-top:0}
+.row b a{color:inherit}
+.row .when{text-align:right;font-weight:600;white-space:nowrap}
+.row .small{font-size:13px;color:var(--muted)}
+.row .small.r{text-align:right}
+
+/* Headline figures */
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:14px 0 14px}
+.kpi{background:#fff;border:1px solid var(--border);border-radius:var(--radius);padding:12px 14px}
+.kpi .v{font-size:26px;font-weight:800;line-height:1.15}
+.kpi .k{font-size:13px;color:var(--muted);line-height:1.3;margin-top:3px}
+@media (max-width:640px){.kpis{grid-template-columns:repeat(2,1fr)}}
+
+/* Charts */
+.chart{background:#fff;border:1px solid var(--border);border-radius:var(--radius);padding:16px 18px;margin:0 0 12px}
+.chart h3{font-size:16px;margin:0;font-weight:700}
+.chart .note{font-size:13px;color:var(--muted);margin:0 0 10px}
+.two{display:grid;grid-template-columns:1fr;gap:12px}
+.plot{position:relative;height:170px;margin-left:22px;border-bottom:1px solid #b9bfc5}
+.grid{position:absolute;left:0;right:0;border-top:1px solid var(--grid)}
+.grid span{position:absolute;left:-22px;top:-9px;width:16px;text-align:right;font-size:12px;color:var(--muted)}
+.cols{position:absolute;inset:0;display:flex;align-items:stretch}
+.col{flex:1 1 0;min-width:0;display:flex;align-items:flex-end;justify-content:center;padding:0 1px;border:0;background:none;cursor:default;font:inherit;position:relative}
+.col i{display:block;width:100%;max-width:44px;background:var(--green-dk);border-radius:4px 4px 0 0}
+.col:hover i,.col:focus-visible i{background:#37590a}
+.col:hover,.col:focus-visible{background:rgba(0,0,0,.035);outline:none}
+.col .val{position:absolute;left:0;right:0;text-align:center;font-size:13px;font-weight:700;color:var(--text)}
+.ticks{display:flex;margin:4px 0 0 22px;font-size:12px;color:var(--muted)}
+.ticks span{flex:1 1 0;min-width:0;text-align:center;white-space:nowrap;overflow:visible}
+#tip{position:fixed;z-index:20;pointer-events:none;background:#111;color:#fff;font-size:13px;line-height:1.3;border-radius:6px;padding:6px 9px;display:none;max-width:220px}
+
+/* Tables */
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{font-size:12px;font-weight:600;color:var(--muted);text-align:left;white-space:nowrap}
+th,td{padding:8px 10px 8px 0;border-bottom:1px solid var(--border);vertical-align:top}
+tr:last-child td{border-bottom:0}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+td.nw{white-space:nowrap}
+.areaname{font-weight:700}
+.areaname span{font-weight:400;color:var(--muted);font-size:13px}
+.barline{display:flex;align-items:center;gap:8px;margin-top:4px}
+.track{flex:1;min-width:30px;height:9px}
+.track i{display:block;height:100%;min-width:0;background:var(--green-dk);border-radius:0 4px 4px 0}
+.barline b{font-size:14px;min-width:18px}
+/* Phones: tables become stacked rows, so nothing is hidden off to the side */
+@media (max-width:640px){
+  table.stack,table.stack tbody{display:block}
+  table.stack tr:first-child{display:none}
+  table.stack tr{display:grid;gap:2px 12px;padding:10px 0;border-bottom:1px solid var(--border)}
+  table.stack tr:last-child{border-bottom:0}
+  table.stack td{display:block;padding:0;border:0;text-align:left;white-space:normal;width:auto!important}
+  .areas tr{grid-template-columns:repeat(3,1fr)}
+  .areas td:first-child{grid-column:1/-1;margin-bottom:4px}
+  .areas td.n::before{content:attr(data-l);display:block;font-size:12px;color:var(--muted)}
+  .recent tr{grid-template-columns:1fr auto;grid-template-areas:"area len" "times times"}
+  .recent td:nth-child(4){grid-area:area;font-weight:700}
+  .recent td:nth-child(3){grid-area:len;text-align:right;font-weight:700}
+  .recent td:nth-child(1){grid-area:times;font-size:13px;color:var(--muted)}
+  .recent td:nth-child(2){display:none}
+  .recent td:nth-child(1)::after{content:" to " attr(data-end)}
+}
+.method{font-size:14px;color:var(--muted);max-width:760px}
+.method p{margin:0 0 8px}
+.footgap{height:30px}
+/* Deeside.com footer (scoped, replaces the theme's widget footer) */
+.dsf{--dsf-bg:#0d0d0d;--dsf-bar:#1a1a1a;--dsf-rule:#2c2c2c;--dsf-text:#bdbdbd;--dsf-accent:#88c425;background:var(--dsf-bg);color:var(--dsf-text);font-family:"Open Sans",Arial,sans-serif;font-size:15px;line-height:1.45;position:static}
+.dsf a{color:var(--dsf-text);text-decoration:none;font-weight:400}
+.dsf a:hover,.dsf a:focus{color:#fff;text-decoration:underline;text-underline-offset:3px}
+.dsf .dsf-inner{max-width:1100px;margin:0 auto;padding:40px 16px 8px;display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr 1fr;gap:32px}
+.dsf .dsf-brand{display:flex;gap:16px;align-items:flex-start}
+.dsf .dsf-brand img{width:76px;height:76px;flex:none;border-radius:50%}
+.dsf .dsf-brand p{margin:0 0 12px;color:var(--dsf-text)}
+.dsf .dsf-brand a.dsf-cta{color:#fff;font-weight:600}
+.dsf .dsf-brand a.dsf-cta span{color:var(--dsf-accent)}
+.dsf .dsf-col h2{color:#fff;font-size:15px;font-weight:700;margin:0 0 8px;padding:0 0 8px;border-bottom:1px solid var(--dsf-rule);background:none;text-transform:none;letter-spacing:0;line-height:1.3}
+.dsf ul{list-style:none;margin:0;padding:0}
+.dsf li{margin:0;padding:0;border:0}
+.dsf li a{display:block;padding:6px 0}
+.dsf .dsf-bar{background:var(--dsf-bar);margin-top:32px}
+.dsf .dsf-bar-inner{max-width:1100px;margin:0 auto;padding:14px 16px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 24px;font-size:13px;color:#8a8a8a}
+.dsf .dsf-bar a{color:#8a8a8a}
+.dsf .dsf-partners{display:flex;flex-wrap:wrap}
+.dsf .dsf-partners a+a::before{content:"\00B7";margin:0 8px;color:#555}
+@media (max-width:900px){.dsf .dsf-inner{grid-template-columns:1fr 1fr 1fr;gap:32px}.dsf .dsf-brand{grid-column:1/-1}}
+@media (max-width:600px){.dsf .dsf-inner{grid-template-columns:1fr 1fr;gap:28px 20px;padding-top:32px}.dsf .dsf-brand img{width:60px;height:60px}.dsf .dsf-about{grid-column:1/-1}.dsf .dsf-about ul{display:flex;flex-wrap:wrap;gap:0 18px}.dsf li a{padding:8px 0}.dsf .dsf-bar-inner{flex-direction:column}}
+
+</style>
+</head>
+<body>
+<nav class="site"><div class="in">
+<a class="brand" href="https://www.deeside.com/"><img src="img/deeside-logo2020nobadge.jpg" alt="Deeside.com"></a>
+<ul><li><a href="https://www.deeside.com/news/">Latest</a></li><li><a href="https://www.deeside.com/fuel-price-map/">Fuel prices</a></li><li><a href="https://www.deeside.com/police-and-crime/">Police</a></li><li><a href="https://www.deeside.com/contact/">Contact</a></li><li><a href="https://www.deeside.com/advertise/">Advertise</a></li></ul>
+</div></nav>
+<main class="wrap">
+<p class="crumb"><a href="https://www.deeside.com/">Deeside.com</a> &rsaquo; Live tools</p>
+<h1>Power cuts in Flintshire</h1>
+<p class="lede">Current power cuts in CH4 to CH8 postcodes from SP Energy Networks, with a running record of how often the power goes off and for how long.</p>
+
+<div class="status" id="status" aria-live="polite">
+  <div><div class="headline">Checking for power cuts…</div></div>
+  <div class="call">Power off? Call free<br><a href="tel:105"><b>105</b></a></div>
+</div>
+<noscript><p>This page needs JavaScript. See <a href="https://powercuts.spenergynetworks.co.uk/list">SP Energy Networks' power cut map</a>.</p></noscript>
+<p class="checked" id="checked"></p>
+
+<div id="current"></div>
+<div id="record"></div>
+
+<section class="method">
+  <h2 style="color:var(--text);font-size:18px">About these figures</h2>
+  <p>Current cuts come from <a href="https://powercuts.spenergynetworks.co.uk/list">SP Energy Networks' power cut service</a>. We check every 5 minutes, and a change can take a couple of minutes more to appear here. Deeside.com runs this page independently of SP Energy Networks, so for anything urgent check with them directly or call 105.</p>
+  <p>The record covers unplanned cuts only. Durations run from when SP Energy Networks logged a cut to when it was marked restored, so power may have gone off later or come back sooner for some homes. A few end times are when we noticed the restoration, up to a few minutes late.</p>
+  <p>CH4 to CH8 postcodes cross the county boundary in places. A cut covering two postcode areas counts once in each area, and once in the overall totals.</p>
+</section>
+</main>
+<div id="tip" role="status"></div>
+<footer class="dsf">
+  <div class="dsf-inner">
+    <div class="dsf-brand">
+      <img src="img/deeside-black-logofooter-new.jpg" alt="Deeside.com">
+      <div>
+        <p>Independent news for Deeside and Flintshire since 2014, covering the towns and villages along the River Dee and the border with Chester.</p>
+        <a class="dsf-cta" href="https://www.deeside.com/contact/">Got a story? Get in touch <span>&rarr;</span></a>
+      </div>
+    </div>
+    <div class="dsf-col">
+      <h2>Live tools</h2>
+      <ul>
+      <li><a href="https://www.deeside.com/deeside-right-now/">Weather, warnings and tides</a></li>
+      <li><a href="https://www.deeside.com/deeside-live-traffic-information/">Live traffic</a></li>
+      <li><a href="https://north.wales/a55-traffic-cameras">A55 traffic cameras</a></li>
+      <li><a href="https://www.deeside.com/trafficcams/">A494 traffic cameras</a></li>
+      <li><a href="https://www.deeside.com/fuel-price-map/">Fuel prices</a></li>
+      <li><a href="https://www.deeside.com/wrexham-bidston-line/">Wrexham to Bidston line</a></li>
+      <li><a href="https://www.deeside.com/police-and-crime/">Police and crime</a></li>
+      <li><a href="https://planning.deeside.com/">Planning applications</a></li>
+      <li><a href="https://hygiene.deeside.com/">Food hygiene ratings</a></li>
+      <li><a href="https://property.deeside.com/">House prices</a></li></ul>
+    </div>
+    <div class="dsf-col">
+      <h2>Town guides</h2>
+      <ul>
+      <li><a href="https://www.deeside.com/broughton-guide/">Broughton and Bretton</a></li>
+      <li><a href="https://www.deeside.com/buckley-guide/">Buckley</a></li>
+      <li><a href="https://www.deeside.com/connahs-quay-guide/">Connah's Quay</a></li>
+      <li><a href="https://www.deeside.com/flint-guide/">Flint</a></li>
+      <li><a href="https://www.deeside.com/hawarden-ewloe-guide/">Hawarden and Ewloe</a></li>
+      <li><a href="https://www.deeside.com/mold-guide/">Mold</a></li>
+      <li><a href="https://www.deeside.com/saltney-guide/">Saltney</a></li>
+      <li><a href="https://www.deeside.com/shotton-queensferry-guide/">Shotton and Queensferry</a></li></ul>
+    </div>
+    <div class="dsf-col">
+      <h2>Guides</h2>
+      <ul>
+      <li><a href="https://www.deeside.com/wepre-park/">Wepre Park</a></li>
+      <li><a href="https://www.deeside.com/theatr-clwyd/">Theatr Clwyd</a></li>
+      <li><a href="https://www.deeside.com/a55-a494-junction-guide/">A55 and A494 junctions</a></li></ul>
+    </div>
+    <div class="dsf-col dsf-about">
+      <h2>Deeside.com</h2>
+      <ul>
+      <li><a href="https://www.deeside.com/contact/">Contact us</a></li>
+      <li><a href="https://www.deeside.com/advertise/">Advertise</a></li>
+      <li><a href="https://www.deeside.com/complaints/">Complaints</a></li>
+      <li><a href="https://www.deeside.com/privacy-policy-further-information/">Privacy</a></li>
+      <li><a href="https://www.deeside.com/disclosure/">Disclosure</a></li></ul>
+    </div>
+  </div>
+  <div class="dsf-bar">
+    <div class="dsf-bar-inner">
+      <span>&copy; Deeside.com Est. 2014</span>
+      <span class="dsf-partners">Partner sites: <a href="https://www.wrexham.com/">Wrexham.com</a><a href="https://www.businesswales.com/">BusinessWales.com</a><a href="https://north.wales/">North.Wales</a><a href="https://news.wales">News.Wales</a></span>
+    </div>
+  </div>
+</footer>
+<script>
+const DATA_URL = "data/powercuts.json", REFRESH_MS = 60000, STALE_MIN = 45; // publish.py sends a check-in at least every 30 minutes
+const SPEN = "https://powercuts.spenergynetworks.co.uk/list";
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const titleCase = s => String(s || "").toLowerCase().replace(/(^|[\s-])([a-z])/g, (m, a, b) => a + b.toUpperCase());
+const safe = u => /^https:\/\//.test(u || "") ? u : SPEN;
+const plural = (n, w) => `${n} ${w}${n === 1 ? "" : "s"}`;
+function dur(m) {
+  if (m === null || m === undefined) return "-";
+  if (m < 60) return `${m}m`;
+  const h = Math.floor(m / 60), r = m % 60;
+  return h >= 48 ? `${Math.floor(h / 24)}d ${h % 24}h` : `${h}h ${r}m`;
+}
+const place = i => [titleCase(i.town), i.outcodes].filter(Boolean).join(", ") || "Flintshire";
+
+function postcodes(i) {
+  const n = plural(i.postcodes, "postcode");
+  if (!i.postcode_list) return `<dd>${esc(n)}</dd>`;
+  return `<dd>${esc(n)}</dd>`;
+}
+function pcList(i) {
+  if (!i.postcode_list) return "";
+  return `<details><summary>Show postcodes affected</summary><p class="pcs">${esc(i.postcode_list)}</p></details>`;
+}
+function cutCard(i) {
+  return `<article class="card">
+    <span class="tag">Power cut</span>
+    <h3>${esc(place(i))}</h3>
+    <div class="area">${esc(i.area)}</div>
+    <dl class="facts">
+      <div><dt>Reported</dt><dd>${esc(i.started)}</dd></div>
+      <div><dt>Restore estimate</dt><dd>${esc(i.eta)}</dd></div>
+      <div><dt>Affected</dt>${postcodes(i)}</div>
+    </dl>
+    ${i.message ? `<p class="message"><span class="who">SP Energy Networks says</span>${esc(i.message)}</p>` : ""}
+    ${pcList(i)}
+    <a class="more" href="${esc(safe(i.link))}" rel="noopener">Latest from SP Energy Networks</a>
+  </article>`;
+}
+function plannedCard(i) {
+  return `<article class="card planned">
+    <span class="tag">Planned work</span>
+    <h3>${esc(place(i))}</h3>
+    <div class="area">${esc(i.area)}</div>
+    <dl class="facts">
+      <div><dt>Due to end</dt><dd>${esc(i.eta)}</dd></div>
+      <div><dt>Affected</dt>${postcodes(i)}</div>
+    </dl>
+    ${i.message ? `<p class="message"><span class="who">SP Energy Networks says</span>${esc(i.message)}</p>` : ""}
+    ${pcList(i)}
+    <a class="more" href="${esc(safe(i.link))}" rel="noopener">Latest from SP Energy Networks</a>
+  </article>`;
+}
+function restoredRow(i) {
+  return `<div class="row">
+    <b><a href="${esc(safe(i.link))}" rel="noopener">${esc(place(i))}</a></b><span class="when">${esc(i.restored_at)}</span>
+    <span class="small">${esc(i.area)}${i.planned ? " (planned work)" : ""}</span><span class="small r">${esc(plural(i.postcodes, "postcode"))}</span>
+  </div>`;
+}
+function renderCurrent(d) {
+  const parts = [];
+  if (d.live.length) parts.push(`<section aria-label="Current power cuts">${d.live.map(cutCard).join("")}</section>`);
+  parts.push(`<section><h2>Planned work</h2>${d.planned.length ? `<p class="sub-h">Power cuts SP Energy Networks has scheduled.</p>${d.planned.map(plannedCard).join("")}` : `<p class="none">No planned power cuts listed right now.</p>`}</section>`);
+  parts.push(`<section><h2>Back on in the last 48 hours</h2>${d.restored.length ? `<p class="sub-h">Most recent first, with the time power was restored.</p><div class="rows">${d.restored.map(restoredRow).join("")}</div>` : `<p class="none">No power cuts restored in the last 48 hours.</p>`}</section>`);
+  $("current").innerHTML = parts.join("");
+}
+function renderStatus(d, stale) {
+  const n = d.live.length, el = $("status");
+  const cls = stale ? "stale" : n ? "cut" : "clear";
+  const headline = stale ? "We can't confirm the latest" : n ? `${plural(n, "power cut")} in Flintshire right now` : "No power cuts in Flintshire right now";
+  const mark = stale ? "?" : n ? "!" : "✓";
+  const sub = stale ? `Our last check was a while ago, so this may be out of date. <a href="${SPEN}">Check with SP Energy Networks</a>.`
+    : n ? `${d.live.reduce((a, i) => a + (Number(i.postcodes) || 0), 0)} postcodes affected` : "Nothing currently listed by SP Energy Networks for CH4 to CH8.";
+  el.className = `status ${cls}`;
+  el.firstElementChild.innerHTML = `<div class="headline"><span class="mark" aria-hidden="true">${mark}</span>${esc(headline)}</div><div class="sub">${sub}</div>`;
+  const when = new Date(d.checked_at).toLocaleTimeString("en-GB", {hour: "2-digit", minute: "2-digit", timeZone: "Europe/London"});
+  $("checked").textContent = `Last updated ${when}. We check every 5 minutes and publish any change straight away.`;
+}
+
+/* Charts: plain HTML so they scale to any width. One hue, thin marks, recessive grid. */
+function niceMax(v) { return v <= 4 ? Math.max(v, 1) : Math.ceil(v / 5) * 5; }
+function columns(items, opts) {
+  const top = niceMax(Math.max(...items.map(b => b.count), 0));
+  const steps = top <= 4 ? top : 2;
+  const grid = Array.from({length: steps + 1}, (_, k) => {
+    const v = Math.round(top * k / steps);
+    return `<div class="grid" style="bottom:${v / top * 100}%"><span>${v}</span></div>`;
+  }).join("");
+  const peak = Math.max(...items.map(b => b.count));
+  const cols = items.map(b => {
+    const h = b.count / top * 100;
+    const show = opts.labelAll ? b.count > 0 : (b.count === peak && peak > 0 && items.findIndex(x => x.count === peak) === items.indexOf(b));
+    const tip = `${b.label}: ${plural(b.count, "cut")}`;
+    return `<button type="button" class="col" data-tip="${esc(tip)}" aria-label="${esc(tip)}">
+      ${b.count ? `<i style="height:${h}%"></i>` : ""}${show ? `<span class="val" style="bottom:calc(${h}% + 2px)">${b.count}</span>` : ""}</button>`;
+  }).join("");
+  const every = Math.max(1, Math.ceil(items.length / (opts.maxLabels || 8)));
+  const ticks = items.map((b, k) => `<span>${k % every === 0 ? esc(b.label) : ""}</span>`).join("");
+  return `<div class="plot">${grid}<div class="cols">${cols}</div></div><div class="ticks">${ticks}</div>`;
+}
+function renderRecord(s) {
+  const unit = {day: "day", week: "week", month: "month"}[s.timeline.unit];
+  const maxArea = Math.max(...s.by_area.map(a => a.this_year), 1);
+  const areaRows = s.by_area.map(a => `<tr>
+    <td style="width:100%"><div class="areaname">${esc(a.outcode)} <span>${esc(a.area)}</span></div>
+      <div class="barline"><div class="track">${a.this_year ? `<i style="width:${a.this_year / maxArea * 100}%"></i>` : ""}</div><b>${a.this_year}</b></div></td>
+    <td class="n" data-l="${esc(s.month_label)}">${a.this_month}</td><td class="n" data-l="Average">${dur(a.average_minutes)}</td><td class="n" data-l="Longest">${dur(a.longest_minutes)}</td></tr>`).join("");
+  const recent = s.recent.map(r => `<tr><td class="nw" data-end="${esc(r.end || "still off")}">${esc(r.start)}</td><td class="nw">${r.end ? esc(r.end) : "<b>Still off</b>"}</td>
+    <td class="n">${dur(r.duration_minutes)}</td><td class="nw">${esc([titleCase(r.town), r.outcodes].filter(Boolean).join(", "))}</td></tr>`).join("");
+  const L = s.longest;
+  $("record").innerHTML = `<section>
+    <h2>The record so far</h2>
+    <p class="sub-h">Unplanned power cuts in ${esc(s.year_label)}, since records began on ${esc(s.since)}.</p>
+    <div class="kpis">
+      <div class="kpi"><div class="v">${s.this_month}</div><div class="k">cuts in ${esc(s.month_label)}</div></div>
+      <div class="kpi"><div class="v">${s.this_year}</div><div class="k">cuts recorded in ${esc(s.year_label)}</div></div>
+      <div class="kpi"><div class="v">${dur(s.average_minutes)}</div><div class="k">average length</div></div>
+      <div class="kpi"><div class="v">${L ? dur(L.minutes) : "-"}</div><div class="k">longest${L ? `: ${esc([titleCase(L.town), L.outcodes].filter(Boolean).join(", "))}, ${esc(L.date)}` : ""}</div></div>
+    </div>
+    <div class="chart">
+      <h3>Unplanned cuts per ${unit}</h3>
+      <p class="note">Counted by the ${unit} SP Energy Networks logged each cut.</p>
+      ${columns(s.timeline.buckets, {maxLabels: 7})}
+      <details><summary>See the numbers</summary><div class="scroll"><table><tr><th>${titleCase(unit)}</th><th class="n">Cuts</th></tr>
+        ${s.timeline.buckets.map(b => `<tr><td>${esc(b.label)}</td><td class="n">${b.count}</td></tr>`).join("")}</table></div></details>
+    </div>
+    <div class="chart">
+      <h3>Where the cuts have been</h3>
+      <p class="note">Bars show cuts in ${esc(s.year_label)}. Average and longest are for the same period.</p>
+      <div class="scroll"><table class="stack areas"><tr><th>Area and cuts</th><th class="n">${esc(s.month_label)}</th><th class="n">Average</th><th class="n">Longest</th></tr>${areaRows}</table></div>
+    </div>
+    <div class="chart">
+      <h3>How long cuts last</h3>
+      <p class="note">Number of finished cuts in ${esc(s.year_label)} by length.</p>
+      ${columns(s.bands, {labelAll: true, maxLabels: 5})}
+    </div>
+    <div class="chart">
+      <h3>${plural(s.recent.length, "most recent cut").replace(/^1 most recent cut$/, "Most recent cut")}</h3>
+      <p class="note">Newest first.</p>
+      <div class="scroll"><table class="stack recent"><tr><th>Reported</th><th>Restored</th><th class="n">Length</th><th>Area</th></tr>${recent}</table></div>
+    </div>
+  </section>`;
+}
+
+/* One shared tooltip for hover and keyboard focus. */
+function showTip(el) {
+  const t = $("tip"), r = el.getBoundingClientRect();
+  t.textContent = el.dataset.tip; t.style.display = "block";
+  const w = t.offsetWidth;
+  t.style.left = Math.max(8, Math.min(innerWidth - w - 8, r.left + r.width / 2 - w / 2)) + "px";
+  t.style.top = Math.max(8, r.top - t.offsetHeight + 40) + "px";
+}
+const tipTarget = e => e.target.closest && e.target.closest("[data-tip]");
+document.addEventListener("mouseover", e => { const c = tipTarget(e); if (c) showTip(c); else $("tip").style.display = "none"; });
+document.addEventListener("focusin", e => { const c = tipTarget(e); if (c) showTip(c); });
+document.addEventListener("focusout", () => { $("tip").style.display = "none"; });
+addEventListener("scroll", () => { $("tip").style.display = "none"; }, {passive: true});
+
+async function load() {
+  try {
+    const r = await fetch(`${DATA_URL}?t=${Date.now()}`, {cache: "no-store"});
+    if (!r.ok) throw new Error(r.status);
+    const d = await r.json();
+    const stale = (Date.now() - new Date(d.checked_at)) / 60000 > STALE_MIN;
+    // Don't redraw under someone reading an open panel. The banner above still updates.
+    if (!document.querySelector("#current details[open], #record details[open]")) { renderCurrent(d); renderRecord(d.stats); }
+    renderStatus(d, stale);
+  } catch (e) {
+    const el = $("status");
+    el.className = "status stale";
+    el.firstElementChild.innerHTML = `<div class="headline"><span class="mark" aria-hidden="true">?</span>We can't load the latest</div><div class="sub">Please <a href="${SPEN}">check with SP Energy Networks</a> or call 105.</div>`;
+  }
+}
+load();
+setInterval(load, REFRESH_MS);
+</script>
+</body>
+</html>

@@ -1,0 +1,367 @@
+{
+ "checked_at": "2026-11-03T22:30:01.478661+00:00",
+ "live": [
+  {
+   "ref": "INCD-2509874-i",
+   "outcodes": "CH5",
+   "town": "DEESIDE",
+   "postcodes": 10,
+   "postcode_list": "CH5 3AU, CH5 3BP, CH5 3EA, CH5 3BN, CH5 3GU, CH5 3BB, CH5 3AZ, CH5 3AY, CH5 1AA, CH5 3AQ",
+   "started": "Tue 3 Nov, 20:53",
+   "eta": "Wed 4 Nov, 06:00",
+   "message": "We have to turn the power off in the CH5 postcode area of DEESIDE at 23:00 so our engineers can safely carry out emergency repairs to an underground cable fault. We aim to restore power by 04/11/2026, 06:00. To protect your equipment, please switch off and unplug all electrical appliances, including your boiler. We will update this message if the information changes. We apologise for the inconvenience and thank you for your patience.",
+   "planned": false,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2509874-i&postcode=",
+   "restored_at": "",
+   "area": "Queensferry, Connah's Quay, Shotton and Hawarden"
+  }
+ ],
+ "planned": [],
+ "restored": [
+  {
+   "ref": "INCD-682300-r",
+   "outcodes": "CH7",
+   "town": "",
+   "postcodes": 7,
+   "postcode_list": "CH7 5SE, CH7 5SA, CH7 5SB, CH7 5LB, CH7 5SF, CH7 5LH, CH7 5LU",
+   "started": "Mon 19 Oct, 15:23",
+   "eta": "Tue 3 Nov, 16:00",
+   "message": "There was a fault in your area which has now been resolved. If you are still without Power. please call us on the number displayed below. Central & Southern Scotland: 0845 272 7999 or Cheshire Merseyside North Wales & North Shropshire: 0845 272 2424",
+   "planned": true,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-682300-r&postcode=",
+   "restored_at": "Tue 3 Nov, 16:00",
+   "area": "Mold, Buckley and nearby villages"
+  },
+  {
+   "ref": "INCD-693052-r",
+   "outcodes": "CH7",
+   "town": "",
+   "postcodes": 9,
+   "postcode_list": "CH7 1QF, CH7 1DR, CH7 1NY, CH7 1NU, CH7 1QQ, CH7 1QJ, CH7 1QG, CH7 1QL, CH7 1NZ",
+   "started": "Tue 3 Nov, 08:51",
+   "eta": "Tue 3 Nov, 13:06",
+   "message": "We have repaired the problem with the electricity supply in your area. There may still be some tidying up to do, and any details have been passed to our Maintenance department, who will attend to it as soon as possible.  Please accept our sincere apologies for any inconvenience in the meantime.",
+   "planned": false,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-693052-r&postcode=",
+   "restored_at": "Tue 3 Nov, 11:54",
+   "area": "Mold, Buckley and nearby villages"
+  },
+  {
+   "ref": "INCD-693130-r",
+   "outcodes": "CH7",
+   "town": "MOLD",
+   "postcodes": 3,
+   "postcode_list": "CH7 5LL, CH7 5LJ, CH7 5FA",
+   "started": "Tue 3 Nov, 09:42",
+   "eta": "Tue 3 Nov, 13:57",
+   "message": "We have repaired the problem with the electricity supply in your area. There may still be some tidying up to do, and any details have been passed to our Maintenance department, who will attend to it as soon as possible.  Please accept our sincere apologies for any inconvenience in the meantime.",
+   "planned": false,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-693130-r&postcode=",
+   "restored_at": "Tue 3 Nov, 10:58",
+   "area": "Mold, Buckley and nearby villages"
+  },
+  {
+   "ref": "INCD-692518-r",
+   "outcodes": "CH8",
+   "town": "",
+   "postcodes": 4,
+   "postcode_list": "CH8 8SB, CH8 8RQ, CH8 8RZ, LL18 6ED",
+   "started": "Mon 2 Nov, 08:03",
+   "eta": "Mon 2 Nov, 12:30",
+   "message": "We apologise for the continued interruption of power in the CH8 postcode area of Holywell. Restoration is taking longer than expected due to the complexity of the repairs to broken equipment on the overhead line network. The engineers are currently finalising the repairs, and we now aim to have power restored by 02/11/2026, 12:30. We will update this message if the information changes. Thank you for your patience.",
+   "planned": false,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-692518-r&postcode=",
+   "restored_at": "Mon 2 Nov, 12:43",
+   "area": "Holywell and the coast"
+  },
+  {
+   "ref": "INCD-692500-r",
+   "outcodes": "CH7",
+   "town": "",
+   "postcodes": 6,
+   "postcode_list": "CH7 6YP, CH7 6YQ, CH7 6UB, CH7 6UD, CH7 6TX, CH7 6YR",
+   "started": "Mon 2 Nov, 06:45",
+   "eta": "Mon 2 Nov, 11:00",
+   "message": "There is an unexpected power cut affecting the CH7 postcode area of Bron Yr Eglwys. Our engineers are onsite. In most cases, our engineers can get your power back on by simply replacing a fuse at the local substation, however, if the fault is complex, this may take us longer to fix. Should this happen, we will keep you updated. We aim to restore power by 02/11/2026, 11:00. We are sorry for the inconvenience and thank you for your patience.",
+   "planned": false,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-692500-r&postcode=",
+   "restored_at": "Mon 2 Nov, 10:03",
+   "area": "Mold, Buckley and nearby villages"
+  },
+  {
+   "ref": "INCD-2509742-i",
+   "outcodes": "CH8",
+   "town": "HOLYWELL",
+   "postcodes": 2,
+   "postcode_list": "CH8 9PY, CH8 9QB",
+   "started": "Sun 1 Nov, 19:24",
+   "eta": "Sun 1 Nov, 23:39",
+   "message": "We apologise for the ongoing power disruption in the CH8 area of HOLYWELL. Our engineers are making progress with an underground cable fault and are working to restore power as quickly and safely as possible by 01/11/2026, 23:39. If this information changes, we will update you where possible. We regret the inconvenience and appreciate your patience.",
+   "planned": false,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2509742-i&postcode=",
+   "restored_at": "Mon 2 Nov, 00:08",
+   "area": "Holywell and the coast"
+  }
+ ],
+ "stats": {
+  "since": "26 October 2026",
+  "month_label": "November",
+  "year_label": "2026",
+  "this_month": 9,
+  "this_year": 20,
+  "average_minutes": 243,
+  "longest": {
+   "minutes": 593,
+   "town": "BUCKLEY",
+   "outcodes": "CH7",
+   "date": "29 October"
+  },
+  "by_area": [
+   {
+    "outcode": "CH4",
+    "area": "Saltney, Broughton and Penyffordd",
+    "this_year": 0,
+    "this_month": 0,
+    "average_minutes": null,
+    "longest_minutes": null
+   },
+   {
+    "outcode": "CH5",
+    "area": "Queensferry, Connah's Quay, Shotton and Hawarden",
+    "this_year": 7,
+    "this_month": 2,
+    "average_minutes": 305,
+    "longest_minutes": 571
+   },
+   {
+    "outcode": "CH6",
+    "area": "Flint and Bagillt",
+    "this_year": 1,
+    "this_month": 0,
+    "average_minutes": 93,
+    "longest_minutes": 93
+   },
+   {
+    "outcode": "CH7",
+    "area": "Mold, Buckley and nearby villages",
+    "this_year": 10,
+    "this_month": 5,
+    "average_minutes": 241,
+    "longest_minutes": 593
+   },
+   {
+    "outcode": "CH8",
+    "area": "Holywell and the coast",
+    "this_year": 3,
+    "this_month": 2,
+    "average_minutes": 277,
+    "longest_minutes": 284
+   }
+  ],
+  "bands": [
+   {
+    "label": "Under 1 hour",
+    "count": 3
+   },
+   {
+    "label": "1 to 3 hours",
+    "count": 4
+   },
+   {
+    "label": "3 to 6 hours",
+    "count": 8
+   },
+   {
+    "label": "6 to 12 hours",
+    "count": 4
+   },
+   {
+    "label": "Over 12 hours",
+    "count": 0
+   }
+  ],
+  "timeline": {
+   "unit": "day",
+   "buckets": [
+    {
+     "label": "26 Oct",
+     "count": 1
+    },
+    {
+     "label": "27 Oct",
+     "count": 2
+    },
+    {
+     "label": "28 Oct",
+     "count": 3
+    },
+    {
+     "label": "29 Oct",
+     "count": 1
+    },
+    {
+     "label": "30 Oct",
+     "count": 1
+    },
+    {
+     "label": "31 Oct",
+     "count": 3
+    },
+    {
+     "label": "1 Nov",
+     "count": 4
+    },
+    {
+     "label": "2 Nov",
+     "count": 2
+    },
+    {
+     "label": "3 Nov",
+     "count": 3
+    }
+   ]
+  },
+  "recent": [
+   {
+    "start": "Tue 3 Nov, 20:53",
+    "end": null,
+    "duration_minutes": null,
+    "outcodes": "CH5",
+    "town": "DEESIDE"
+   },
+   {
+    "start": "Tue 3 Nov, 09:42",
+    "end": "Tue 3 Nov, 10:58",
+    "duration_minutes": 76,
+    "outcodes": "CH7",
+    "town": "MOLD"
+   },
+   {
+    "start": "Tue 3 Nov, 08:51",
+    "end": "Tue 3 Nov, 11:54",
+    "duration_minutes": 182,
+    "outcodes": "CH7",
+    "town": ""
+   },
+   {
+    "start": "Mon 2 Nov, 08:03",
+    "end": "Mon 2 Nov, 12:43",
+    "duration_minutes": 280,
+    "outcodes": "CH8",
+    "town": ""
+   },
+   {
+    "start": "Mon 2 Nov, 06:45",
+    "end": "Mon 2 Nov, 10:03",
+    "duration_minutes": 198,
+    "outcodes": "CH7",
+    "town": ""
+   },
+   {
+    "start": "Sun 1 Nov, 19:24",
+    "end": "Mon 2 Nov, 00:08",
+    "duration_minutes": 284,
+    "outcodes": "CH8",
+    "town": "HOLYWELL"
+   },
+   {
+    "start": "Sun 1 Nov, 16:41",
+    "end": "Sun 1 Nov, 20:25",
+    "duration_minutes": 224,
+    "outcodes": "CH5",
+    "town": "DEESIDE"
+   },
+   {
+    "start": "Sun 1 Nov, 10:11",
+    "end": "Sun 1 Nov, 13:10",
+    "duration_minutes": 179,
+    "outcodes": "CH7",
+    "town": ""
+   },
+   {
+    "start": "Sun 1 Nov, 09:18",
+    "end": "Sun 1 Nov, 15:43",
+    "duration_minutes": 385,
+    "outcodes": "CH7",
+    "town": ""
+   },
+   {
+    "start": "Sat 31 Oct, 16:06",
+    "end": "Sat 31 Oct, 20:18",
+    "duration_minutes": 252,
+    "outcodes": "CH5",
+    "town": ""
+   },
+   {
+    "start": "Sat 31 Oct, 09:41",
+    "end": "Sat 31 Oct, 10:20",
+    "duration_minutes": 39,
+    "outcodes": "CH7",
+    "town": "BUCKLEY"
+   },
+   {
+    "start": "Sat 31 Oct, 09:18",
+    "end": "Sat 31 Oct, 18:25",
+    "duration_minutes": 547,
+    "outcodes": "CH7, CH5",
+    "town": ""
+   },
+   {
+    "start": "Fri 30 Oct, 18:02",
+    "end": "Sat 31 Oct, 03:33",
+    "duration_minutes": 571,
+    "outcodes": "CH5",
+    "town": ""
+   },
+   {
+    "start": "Thu 29 Oct, 07:25",
+    "end": "Thu 29 Oct, 17:18",
+    "duration_minutes": 593,
+    "outcodes": "CH7",
+    "town": "BUCKLEY"
+   },
+   {
+    "start": "Wed 28 Oct, 23:54",
+    "end": "Thu 29 Oct, 00:53",
+    "duration_minutes": 59,
+    "outcodes": "CH7",
+    "town": ""
+   },
+   {
+    "start": "Wed 28 Oct, 08:20",
+    "end": "Wed 28 Oct, 10:50",
+    "duration_minutes": 150,
+    "outcodes": "CH7",
+    "town": ""
+   },
+   {
+    "start": "Wed 28 Oct, 06:52",
+    "end": "Wed 28 Oct, 11:20",
+    "duration_minutes": 268,
+    "outcodes": "CH8",
+    "town": ""
+   },
+   {
+    "start": "Tue 27 Oct, 14:41",
+    "end": "Tue 27 Oct, 15:20",
+    "duration_minutes": 39,
+    "outcodes": "CH5",
+    "town": "DEESIDE"
+   },
+   {
+    "start": "Tue 27 Oct, 07:22",
+    "end": "Tue 27 Oct, 10:38",
+    "duration_minutes": 196,
+    "outcodes": "CH5",
+    "town": "DEESIDE"
+   },
+   {
+    "start": "Mon 26 Oct, 13:05",
+    "end": "Mon 26 Oct, 14:38",
+    "duration_minutes": 93,
+    "outcodes": "CH6",
+    "town": "FLINT"
+   }
+  ]
+ }
+}
