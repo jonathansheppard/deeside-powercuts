@@ -1,21 +1,6 @@
 {
- "checked_at": "2026-11-04T15:15:01.582325+00:00",
- "live": [
-  {
-   "ref": "INCD-693856-r",
-   "outcodes": "CH7",
-   "town": "MOLD",
-   "postcodes": 2,
-   "postcode_list": "CH7 4JP, CH7 4JR",
-   "started": "Wed 4 Nov, 10:07",
-   "eta": "Wed 4 Nov, 16:00",
-   "message": "We turned the power off in the CH7 postcode area of MOLD due to trees on an overhead line. At this stage, we aim to have your supply restored by 04/11/2026, 16:00. We will update this message as we progress with the investigation and repair. To protect your equipment, please switch off and unplug all electrical appliances, including your boiler. We are working as quickly and safely as possible to restore your supply. We apologise for the inconvenience and thank you for your patience.",
-   "planned": false,
-   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-693856-r&postcode=",
-   "restored_at": "",
-   "area": "Mold, Buckley and nearby villages"
-  }
- ],
+ "checked_at": "2026-11-04T15:20:01.667484+00:00",
+ "live": [],
  "planned": [],
  "restored": [
   {
@@ -31,6 +16,20 @@
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-681514-r&postcode=",
    "restored_at": "Wed 4 Nov, 16:00",
    "area": "Flint and Bagillt; Mold, Buckley and nearby villages"
+  },
+  {
+   "ref": "INCD-693856-r",
+   "outcodes": "CH7",
+   "town": "MOLD",
+   "postcodes": 2,
+   "postcode_list": "CH7 4JP, CH7 4JR",
+   "started": "Wed 4 Nov, 10:07",
+   "eta": "Wed 4 Nov, 16:00",
+   "message": "We turned the power off in the CH7 postcode area of MOLD due to trees on an overhead line. At this stage, we aim to have your supply restored by 04/11/2026, 16:00. We will update this message as we progress with the investigation and repair. To protect your equipment, please switch off and unplug all electrical appliances, including your boiler. We are working as quickly and safely as possible to restore your supply. We apologise for the inconvenience and thank you for your patience.",
+   "planned": false,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-693856-r&postcode=",
+   "restored_at": "Wed 4 Nov, 15:18",
+   "area": "Mold, Buckley and nearby villages"
   },
   {
    "ref": "INCD-1438291-s",
@@ -109,7 +108,7 @@
   "year_label": "2026",
   "this_month": 10,
   "this_year": 21,
-  "average_minutes": 255,
+  "average_minutes": 258,
   "longest": {
    "minutes": 593,
    "town": "BUCKLEY",
@@ -146,7 +145,7 @@
     "area": "Mold, Buckley and nearby villages",
     "this_year": 11,
     "this_month": 6,
-    "average_minutes": 241,
+    "average_minutes": 247,
     "longest_minutes": 593
    },
    {
@@ -169,7 +168,7 @@
    },
    {
     "label": "3 to 6 hours",
-    "count": 8
+    "count": 9
    },
    {
     "label": "6 to 12 hours",
@@ -228,8 +227,8 @@
   "recent": [
    {
     "start": "Wed 4 Nov, 10:07",
-    "end": null,
-    "duration_minutes": null,
+    "end": "Wed 4 Nov, 15:18",
+    "duration_minutes": 311,
     "outcodes": "CH7",
     "town": "MOLD"
    },
