@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-04T10:35:01.230895+00:00",
+ "checked_at": "2026-11-04T11:00:01.589687+00:00",
  "live": [
   {
    "ref": "INCD-693856-r",
@@ -97,7 +97,7 @@
    "postcode_list": "CH7 5LL, CH7 5LJ, CH7 5FA",
    "started": "Tue 3 Nov, 09:42",
    "eta": "Tue 3 Nov, 13:57",
-   "message": "We have repaired the problem with the electricity supply in your area. There may still be some tidying up to do, and any details have been passed to our Maintenance department, who will attend to it as soon as possible.  Please accept our sincere apologies for any inconvenience in the meantime.",
+   "message": "There is an unexpected power cut affecting the CH7 postcode area of Mold. Our emergency response team has been alerted to investigate the fault. We aim to restore power by 03/11/2026, 13:57. We apologise for the inconvenience and thank you for your patience.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-693130-r&postcode=",
    "restored_at": "Tue 3 Nov, 10:58",
