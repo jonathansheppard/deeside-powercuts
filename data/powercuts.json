@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-04T12:30:01.739174+00:00",
+ "checked_at": "2026-11-04T12:40:01.194265+00:00",
  "live": [
   {
    "ref": "INCD-693856-r",
@@ -8,8 +8,8 @@
    "postcodes": 2,
    "postcode_list": "CH7 4JP, CH7 4JR",
    "started": "Wed 4 Nov, 10:07",
-   "eta": "Wed 4 Nov, 12:07",
-   "message": "We are currently experiencing problems with the electricity supply in your area. We are arranging to have engineers investigate the fault, and we hope to have your electricity restored by 04-NOV-2026 12:07. Please accept our sincere apologies for the inconvenience this is causing.",
+   "eta": "Wed 4 Nov, 16:00",
+   "message": "We turned the power off in the CH7 postcode area of MOLD due to trees on an overhead line. At this stage, we aim to have your supply restored by 04/11/2026, 16:00. We will update this message as we progress with the investigation and repair. To protect your equipment, please switch off and unplug all electrical appliances, including your boiler. We are working as quickly and safely as possible to restore your supply. We apologise for the inconvenience and thank you for your patience.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-693856-r&postcode=",
    "restored_at": "",
