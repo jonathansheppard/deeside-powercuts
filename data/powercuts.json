@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-04T03:25:02.072637+00:00",
+ "checked_at": "2026-11-04T04:00:02.605515+00:00",
  "live": [
   {
    "ref": "INCD-2509874-i",
@@ -26,7 +26,7 @@
    "postcode_list": "CH7 5SE, CH7 5SA, CH7 5SB, CH7 5LB, CH7 5SF, CH7 5LH, CH7 5LU",
    "started": "Mon 19 Oct, 15:23",
    "eta": "Tue 3 Nov, 16:00",
-   "message": "There was a fault in your area which has now been resolved. If you are still without Power. please call us on the number displayed below. Central & Southern Scotland: 0845 272 7999 or Cheshire Merseyside North Wales & North Shropshire: 0845 272 2424",
+   "message": "",
    "planned": true,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-682300-r&postcode=",
    "restored_at": "Tue 3 Nov, 16:00",
