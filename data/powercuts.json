@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-04T09:55:01.418519+00:00",
+ "checked_at": "2026-11-04T10:05:01.393961+00:00",
  "live": [],
  "planned": [
   {
@@ -101,20 +101,6 @@
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-692518-r&postcode=",
    "restored_at": "Mon 2 Nov, 12:43",
    "area": "Holywell and the coast"
-  },
-  {
-   "ref": "INCD-692500-r",
-   "outcodes": "CH7",
-   "town": "",
-   "postcodes": 6,
-   "postcode_list": "CH7 6YP, CH7 6YQ, CH7 6UB, CH7 6UD, CH7 6TX, CH7 6YR",
-   "started": "Mon 2 Nov, 06:45",
-   "eta": "Mon 2 Nov, 11:00",
-   "message": "There is an unexpected power cut affecting the CH7 postcode area of Bron Yr Eglwys. Our engineers are onsite. In most cases, our engineers can get your power back on by simply replacing a fuse at the local substation, however, if the fault is complex, this may take us longer to fix. Should this happen, we will keep you updated. We aim to restore power by 02/11/2026, 11:00. We are sorry for the inconvenience and thank you for your patience.",
-   "planned": false,
-   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-692500-r&postcode=",
-   "restored_at": "Mon 2 Nov, 10:03",
-   "area": "Mold, Buckley and nearby villages"
   }
  ],
  "stats": {
