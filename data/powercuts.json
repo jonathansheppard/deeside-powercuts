@@ -1,6 +1,21 @@
 {
- "checked_at": "2026-11-04T10:05:01.393961+00:00",
- "live": [],
+ "checked_at": "2026-11-04T10:15:01.265603+00:00",
+ "live": [
+  {
+   "ref": "INCD-693856-r",
+   "outcodes": "CH7",
+   "town": "MOLD",
+   "postcodes": 2,
+   "postcode_list": "CH7 4JP, CH7 4JR",
+   "started": "Wed 4 Nov, 10:07",
+   "eta": "Wed 4 Nov, 12:07",
+   "message": "There is a power cut affecting the CH7 postcode area of Mold. We aim to restore power by 04/11/2026, 12:07 but may be able to get some customers on sooner. The timeframe may change based on our investigations and the work required to fix the issue. We will keep you updated with any changes. We are sorry for the inconvenience and thank you for your patience.",
+   "planned": false,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-693856-r&postcode=",
+   "restored_at": "",
+   "area": "Mold, Buckley and nearby villages"
+  }
+ ],
  "planned": [
   {
    "ref": "INCD-1438291-s",
@@ -107,8 +122,8 @@
   "since": "26 October 2026",
   "month_label": "November",
   "year_label": "2026",
-  "this_month": 9,
-  "this_year": 20,
+  "this_month": 10,
+  "this_year": 21,
   "average_minutes": 255,
   "longest": {
    "minutes": 593,
@@ -144,8 +159,8 @@
    {
     "outcode": "CH7",
     "area": "Mold, Buckley and nearby villages",
-    "this_year": 10,
-    "this_month": 5,
+    "this_year": 11,
+    "this_month": 6,
     "average_minutes": 241,
     "longest_minutes": 593
    },
@@ -221,11 +236,18 @@
     },
     {
      "label": "4 Nov",
-     "count": 0
+     "count": 1
     }
    ]
   },
   "recent": [
+   {
+    "start": "Wed 4 Nov, 10:07",
+    "end": null,
+    "duration_minutes": null,
+    "outcodes": "CH7",
+    "town": "MOLD"
+   },
    {
     "start": "Tue 3 Nov, 20:53",
     "end": "Wed 4 Nov, 04:58",
@@ -358,13 +380,6 @@
     "duration_minutes": 196,
     "outcodes": "CH5",
     "town": "DEESIDE"
-   },
-   {
-    "start": "Mon 26 Oct, 13:05",
-    "end": "Mon 26 Oct, 14:38",
-    "duration_minutes": 93,
-    "outcodes": "CH6",
-    "town": "FLINT"
    }
   ]
  }
