@@ -12,7 +12,11 @@ os.environ.pop("GITHUB_TOKEN", None)  # use gh's stored login, as push_site_data
 
 
 def git(*args, check=True):
-    return subprocess.run(["git", "-C", str(SITE), *args], check=check, capture_output=True, text=True).stdout
+    r = subprocess.run(["git", "-C", str(SITE), *args], capture_output=True, text=True)
+    if check and r.returncode:
+        log(f"git {args[0]} failed: " + (r.stderr or r.stdout).strip()[-400:])
+        r.check_returncode()
+    return r.stdout
 
 
 def log(msg):
