@@ -1,7 +1,22 @@
 {
- "checked_at": "2026-11-04T08:10:01.268648+00:00",
+ "checked_at": "2026-11-04T08:35:00.710532+00:00",
  "live": [],
- "planned": [],
+ "planned": [
+  {
+   "ref": "INCD-681514-r",
+   "outcodes": "CH6, CH7",
+   "town": "",
+   "postcodes": 4,
+   "postcode_list": "CH6 5SU, CH7 6DF, CH6 5SX, CH7",
+   "started": "Sat 17 Oct, 11:07",
+   "eta": "Wed 4 Nov, 16:00",
+   "message": "The electricity supply to your premises may currently be affected by planned work. You should have received a letter explaining this. We hope to be able to restore your supplies by 04-NOV-2026 16:00. Please accept our sincere apologies for any inconvenience this is causing.",
+   "planned": true,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-681514-r&postcode=",
+   "restored_at": "",
+   "area": "Flint and Bagillt; Mold, Buckley and nearby villages"
+  }
+ ],
  "restored": [
   {
    "ref": "INCD-2509874-i",
