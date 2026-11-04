@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-04T00:00:02.399413+00:00",
+ "checked_at": "2026-11-04T00:10:01.788779+00:00",
  "live": [
   {
    "ref": "INCD-2509874-i",
@@ -87,20 +87,6 @@
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-692500-r&postcode=",
    "restored_at": "Mon 2 Nov, 10:03",
    "area": "Mold, Buckley and nearby villages"
-  },
-  {
-   "ref": "INCD-2509742-i",
-   "outcodes": "CH8",
-   "town": "HOLYWELL",
-   "postcodes": 2,
-   "postcode_list": "CH8 9PY, CH8 9QB",
-   "started": "Sun 1 Nov, 19:24",
-   "eta": "Sun 1 Nov, 23:39",
-   "message": "We apologise for the ongoing power disruption in the CH8 area of HOLYWELL. Our engineers are making progress with an underground cable fault and are working to restore power as quickly and safely as possible by 01/11/2026, 23:39. If this information changes, we will update you where possible. We regret the inconvenience and appreciate your patience.",
-   "planned": false,
-   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2509742-i&postcode=",
-   "restored_at": "Mon 2 Nov, 00:08",
-   "area": "Holywell and the coast"
   }
  ],
  "stats": {
