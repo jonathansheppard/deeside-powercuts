@@ -1,7 +1,21 @@
 {
- "checked_at": "2026-11-04T09:40:01.179856+00:00",
+ "checked_at": "2026-11-04T09:55:01.418519+00:00",
  "live": [],
  "planned": [
+  {
+   "ref": "INCD-1438291-s",
+   "outcodes": "CH6",
+   "town": "",
+   "postcodes": 5,
+   "postcode_list": "CH6 5SF, CH6 5SD, CH6 5TE, CH6 5SJ, CH6 5TH",
+   "started": "Sun 18 Oct, 17:14",
+   "eta": "Wed 4 Nov, 14:00",
+   "message": "The electricity supply to your premises may currently be affected by planned work. You should have received a letter explaining this. We hope to be able to restore your supplies by 04-NOV-2026 14:00. Please accept our sincere apologies for any inconvenience this is causing.",
+   "planned": true,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-1438291-s&postcode=",
+   "restored_at": "",
+   "area": "Flint and Bagillt"
+  },
   {
    "ref": "INCD-681514-r",
    "outcodes": "CH6, CH7",
