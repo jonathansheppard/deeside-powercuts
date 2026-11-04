@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-04T14:35:01.076995+00:00",
+ "checked_at": "2026-11-04T14:45:01.028475+00:00",
  "live": [
   {
    "ref": "INCD-693856-r",
@@ -16,22 +16,7 @@
    "area": "Mold, Buckley and nearby villages"
   }
  ],
- "planned": [
-  {
-   "ref": "INCD-1438291-s",
-   "outcodes": "CH6",
-   "town": "",
-   "postcodes": 5,
-   "postcode_list": "CH6 5SF, CH6 5SD, CH6 5TE, CH6 5SJ, CH6 5TH",
-   "started": "Sun 18 Oct, 17:14",
-   "eta": "Wed 4 Nov, 14:00",
-   "message": "The electricity supply to your premises may currently be affected by planned work. You should have received a letter explaining this. We hope to be able to restore your supplies by 04-NOV-2026 14:00. Please accept our sincere apologies for any inconvenience this is causing.",
-   "planned": true,
-   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-1438291-s&postcode=",
-   "restored_at": "",
-   "area": "Flint and Bagillt"
-  }
- ],
+ "planned": [],
  "restored": [
   {
    "ref": "INCD-681514-r",
@@ -46,6 +31,20 @@
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-681514-r&postcode=",
    "restored_at": "Wed 4 Nov, 16:00",
    "area": "Flint and Bagillt; Mold, Buckley and nearby villages"
+  },
+  {
+   "ref": "INCD-1438291-s",
+   "outcodes": "CH6",
+   "town": "",
+   "postcodes": 5,
+   "postcode_list": "CH6 5SF, CH6 5SD, CH6 5TE, CH6 5SJ, CH6 5TH",
+   "started": "Sun 18 Oct, 18:14",
+   "eta": "Wed 4 Nov, 14:00",
+   "message": "There was a fault in your area which has now been resolved. If you are still without Power. please call us on the number displayed below. Central & Southern Scotland: 0845 272 7999 or Cheshire Merseyside North Wales & North Shropshire: 0845 272 2424",
+   "planned": true,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-1438291-s&postcode=",
+   "restored_at": "Wed 4 Nov, 14:00",
+   "area": "Flint and Bagillt"
   },
   {
    "ref": "INCD-2509874-i",
