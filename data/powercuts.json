@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-05T04:25:01.129928+00:00",
+ "checked_at": "2026-11-05T05:00:02.976970+00:00",
  "live": [],
  "planned": [],
  "restored": [
@@ -53,7 +53,7 @@
    "postcode_list": "CH5 3AU, CH5 3BP, CH5 3EA, CH5 3BN, CH5 3GU, CH5 3BB, CH5 3AZ, CH5 3AY, CH5 1AA, CH5 3AQ",
    "started": "Tue 3 Nov, 20:53",
    "eta": "Wed 4 Nov, 06:00",
-   "message": "We have repaired the problem with the electricity supply in your area. There may still be some tidying up to do, and any details have been passed to our Maintenance department, who will attend to it as soon as possible.  Please accept our sincere apologies for any inconvenience in the meantime.",
+   "message": "We have to turn the power off in the CH5 postcode area of DEESIDE at 23:00 so our engineers can safely carry out emergency repairs to an underground cable fault. We aim to restore power by 04/11/2026, 06:00. To protect your equipment, please switch off and unplug all electrical appliances, including your boiler. We will update this message if the information changes. We apologise for the inconvenience and thank you for your patience.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2509874-i&postcode=",
    "restored_at": "Wed 4 Nov, 04:58",
