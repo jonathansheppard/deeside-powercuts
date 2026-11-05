@@ -1,6 +1,21 @@
 {
- "checked_at": "2026-11-05T13:00:01.356689+00:00",
- "live": [],
+ "checked_at": "2026-11-05T13:05:00.748609+00:00",
+ "live": [
+  {
+   "ref": "INCD-694588-r",
+   "outcodes": "CH4",
+   "town": "",
+   "postcodes": 1,
+   "postcode_list": "CH4 9NG",
+   "started": "Thu 5 Nov, 10:49",
+   "eta": "not given",
+   "message": "Monitoring systems on our network have alerted us to an unexpected fault affecting a number of customers over a wide area. We apologise for the inconvenience caused, our emergency response teams have been notified and we expect your supply to be restored by 2026-11-05 15:00",
+   "planned": false,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-694588-r&postcode=",
+   "restored_at": "",
+   "area": "Saltney, Broughton and Penyffordd"
+  }
+ ],
  "planned": [
   {
    "ref": "INCD-684118-r",
@@ -93,8 +108,8 @@
   "since": "26 October 2026",
   "month_label": "November",
   "year_label": "2026",
-  "this_month": 10,
-  "this_year": 21,
+  "this_month": 11,
+  "this_year": 22,
   "average_minutes": 258,
   "longest": {
    "minutes": 593,
@@ -106,8 +121,8 @@
    {
     "outcode": "CH4",
     "area": "Saltney, Broughton and Penyffordd",
-    "this_year": 0,
-    "this_month": 0,
+    "this_year": 1,
+    "this_month": 1,
     "average_minutes": null,
     "longest_minutes": null
    },
@@ -211,11 +226,18 @@
     },
     {
      "label": "5 Nov",
-     "count": 0
+     "count": 1
     }
    ]
   },
   "recent": [
+   {
+    "start": "Thu 5 Nov, 10:49",
+    "end": null,
+    "duration_minutes": null,
+    "outcodes": "CH4",
+    "town": ""
+   },
    {
     "start": "Wed 4 Nov, 10:07",
     "end": "Wed 4 Nov, 15:18",
@@ -346,13 +368,6 @@
     "start": "Tue 27 Oct, 14:41",
     "end": "Tue 27 Oct, 15:20",
     "duration_minutes": 39,
-    "outcodes": "CH5",
-    "town": "DEESIDE"
-   },
-   {
-    "start": "Tue 27 Oct, 07:22",
-    "end": "Tue 27 Oct, 10:38",
-    "duration_minutes": 196,
     "outcodes": "CH5",
     "town": "DEESIDE"
    }
