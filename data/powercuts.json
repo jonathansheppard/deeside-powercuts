@@ -1,6 +1,8 @@
 {
- "checked_at": "2026-11-05T18:15:01.354285+00:00",
- "live": [
+ "checked_at": "2026-11-05T18:20:02.219942+00:00",
+ "live": [],
+ "planned": [],
+ "restored": [
   {
    "ref": "INCD-694588-r",
    "outcodes": "CH4",
@@ -12,12 +14,9 @@
    "message": "We have to turn the power off in the CH4 postcode area of Dodleston at 17:30 so our engineers can safely carry out emergency repairs to damaged equipment on the network. We aim to restore power by 05/11/2026, 18:30. To protect your equipment, please switch off and unplug all electrical appliances, including your boiler. We will update this message if the information changes. We apologise for the inconvenience and thank you for your patience.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-694588-r&postcode=",
-   "restored_at": "",
+   "restored_at": "Thu 5 Nov, 18:18",
    "area": "Saltney, Broughton and Penyffordd"
-  }
- ],
- "planned": [],
- "restored": [
+  },
   {
    "ref": "INCD-684118-r",
    "outcodes": "CH8",
@@ -95,7 +94,7 @@
   "year_label": "2026",
   "this_month": 11,
   "this_year": 22,
-  "average_minutes": 258,
+  "average_minutes": 266,
   "longest": {
    "minutes": 593,
    "town": "BUCKLEY",
@@ -108,8 +107,8 @@
     "area": "Saltney, Broughton and Penyffordd",
     "this_year": 1,
     "this_month": 1,
-    "average_minutes": null,
-    "longest_minutes": null
+    "average_minutes": 448,
+    "longest_minutes": 448
    },
    {
     "outcode": "CH5",
@@ -159,7 +158,7 @@
    },
    {
     "label": "6 to 12 hours",
-    "count": 5
+    "count": 6
    },
    {
     "label": "Over 12 hours",
@@ -218,8 +217,8 @@
   "recent": [
    {
     "start": "Thu 5 Nov, 10:49",
-    "end": null,
-    "duration_minutes": null,
+    "end": "Thu 5 Nov, 18:18",
+    "duration_minutes": 448,
     "outcodes": "CH4",
     "town": ""
    },
