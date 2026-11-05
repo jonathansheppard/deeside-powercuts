@@ -1,7 +1,22 @@
 {
- "checked_at": "2026-11-05T08:20:01.309974+00:00",
+ "checked_at": "2026-11-05T08:25:00.817530+00:00",
  "live": [],
- "planned": [],
+ "planned": [
+  {
+   "ref": "INCD-684118-r",
+   "outcodes": "CH8",
+   "town": "",
+   "postcodes": 12,
+   "postcode_list": "CH8 8LS, CH8 8AD, CH8 8LR, CH8 8SU, CH8 7RP, CH8 8AJ, CH8 8LP, CH8 8LD, CH8 7PN, CH8 8AL, CH8 8SZ, LL",
+   "started": "Thu 22 Oct, 13:00",
+   "eta": "Thu 5 Nov, 16:00",
+   "message": "The electricity supply to your premises may currently be affected by planned work. You should have received a letter explaining this. We hope to be able to restore your supplies by 05-NOV-2026 16:00. Please accept our sincere apologies for any inconvenience this is causing.",
+   "planned": true,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-684118-r&postcode=",
+   "restored_at": "",
+   "area": "Holywell and the coast"
+  }
+ ],
  "restored": [
   {
    "ref": "INCD-681514-r",
