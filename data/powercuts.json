@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-05T13:35:01.479109+00:00",
+ "checked_at": "2026-11-05T13:45:01.221310+00:00",
  "live": [
   {
    "ref": "INCD-694588-r",
@@ -8,7 +8,7 @@
    "postcodes": 1,
    "postcode_list": "CH4 9NG",
    "started": "Thu 5 Nov, 10:49",
-   "eta": "not given",
+   "eta": "Thu 5 Nov, 18:30",
    "message": "Monitoring systems on our network have alerted us to an unexpected fault affecting a number of customers over a wide area. We apologise for the inconvenience caused, our emergency response teams have been notified and we expect your supply to be restored by 2026-11-05 15:00",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-694588-r&postcode=",
