@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-05T15:40:01.627364+00:00",
+ "checked_at": "2026-11-05T16:00:02.182635+00:00",
  "live": [
   {
    "ref": "INCD-694588-r",
@@ -87,20 +87,6 @@
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2509874-i&postcode=",
    "restored_at": "Wed 4 Nov, 04:58",
    "area": "Queensferry, Connah's Quay, Shotton and Hawarden"
-  },
-  {
-   "ref": "INCD-682300-r",
-   "outcodes": "CH7",
-   "town": "",
-   "postcodes": 7,
-   "postcode_list": "CH7 5SE, CH7 5SA, CH7 5SB, CH7 5LB, CH7 5SF, CH7 5LH, CH7 5LU",
-   "started": "Mon 19 Oct, 15:23",
-   "eta": "Tue 3 Nov, 16:00",
-   "message": "",
-   "planned": true,
-   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-682300-r&postcode=",
-   "restored_at": "Tue 3 Nov, 16:00",
-   "area": "Mold, Buckley and nearby villages"
   }
  ],
  "stats": {
