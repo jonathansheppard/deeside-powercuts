@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-05T11:30:01.663653+00:00",
+ "checked_at": "2026-11-05T11:55:00.819322+00:00",
  "live": [],
  "planned": [
   {
@@ -86,20 +86,6 @@
    "planned": true,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-682300-r&postcode=",
    "restored_at": "Tue 3 Nov, 16:00",
-   "area": "Mold, Buckley and nearby villages"
-  },
-  {
-   "ref": "INCD-693052-r",
-   "outcodes": "CH7",
-   "town": "",
-   "postcodes": 9,
-   "postcode_list": "CH7 1QF, CH7 1DR, CH7 1NY, CH7 1NU, CH7 1QQ, CH7 1QJ, CH7 1QG, CH7 1QL, CH7 1NZ",
-   "started": "Tue 3 Nov, 08:51",
-   "eta": "Tue 3 Nov, 13:06",
-   "message": "There is an unexpected power cut affecting the CH7 postcode area of Mold. Our engineers are onsite. In most cases, our engineers can get your power back on by simply replacing a fuse at the local substation, however, if the fault is complex, this may take us longer to fix. Should this happen, we will keep you updated. We aim to restore power by 03/11/2026, 13:06. We are sorry for the inconvenience and thank you for your patience.",
-   "planned": false,
-   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-693052-r&postcode=",
-   "restored_at": "Tue 3 Nov, 11:54",
    "area": "Mold, Buckley and nearby villages"
   }
  ],
