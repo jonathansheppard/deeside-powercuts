@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-06T13:55:00.768196+00:00",
+ "checked_at": "2026-11-06T14:00:02.406706+00:00",
  "live": [],
  "planned": [],
  "restored": [
@@ -72,20 +72,6 @@
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-693856-r&postcode=",
    "restored_at": "Wed 4 Nov, 15:18",
    "area": "Mold, Buckley and nearby villages"
-  },
-  {
-   "ref": "INCD-1438291-s",
-   "outcodes": "CH6",
-   "town": "",
-   "postcodes": 5,
-   "postcode_list": "CH6 5SF, CH6 5SD, CH6 5TE, CH6 5SJ, CH6 5TH",
-   "started": "Sun 18 Oct, 18:14",
-   "eta": "Wed 4 Nov, 14:00",
-   "message": "There was a fault in your area which has now been resolved. If you are still without Power. please call us on the number displayed below. Central & Southern Scotland: 0845 272 7999 or Cheshire Merseyside North Wales & North Shropshire: 0845 272 2424",
-   "planned": true,
-   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-1438291-s&postcode=",
-   "restored_at": "Wed 4 Nov, 14:00",
-   "area": "Flint and Bagillt"
   }
  ],
  "stats": {
