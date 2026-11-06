@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-06T15:10:01.231405+00:00",
+ "checked_at": "2026-11-06T15:20:02.332379+00:00",
  "live": [],
  "planned": [],
  "restored": [
@@ -44,20 +44,6 @@
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-684118-r&postcode=",
    "restored_at": "Thu 5 Nov, 16:00",
    "area": "Holywell and the coast"
-  },
-  {
-   "ref": "INCD-693856-r",
-   "outcodes": "CH7",
-   "town": "MOLD",
-   "postcodes": 2,
-   "postcode_list": "CH7 4JP, CH7 4JR",
-   "started": "Wed 4 Nov, 10:07",
-   "eta": "Wed 4 Nov, 16:00",
-   "message": "We turned the power off in the CH7 postcode area of MOLD due to trees on an overhead line. At this stage, we aim to have your supply restored by 04/11/2026, 16:00. We will update this message as we progress with the investigation and repair. To protect your equipment, please switch off and unplug all electrical appliances, including your boiler. We are working as quickly and safely as possible to restore your supply. We apologise for the inconvenience and thank you for your patience.",
-   "planned": false,
-   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-693856-r&postcode=",
-   "restored_at": "Wed 4 Nov, 15:18",
-   "area": "Mold, Buckley and nearby villages"
   }
  ],
  "stats": {
