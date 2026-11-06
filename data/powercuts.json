@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-06T04:55:01.215676+00:00",
+ "checked_at": "2026-11-06T05:00:02.202574+00:00",
  "live": [],
  "planned": [],
  "restored": [
@@ -72,20 +72,6 @@
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-1438291-s&postcode=",
    "restored_at": "Wed 4 Nov, 14:00",
    "area": "Flint and Bagillt"
-  },
-  {
-   "ref": "INCD-2509874-i",
-   "outcodes": "CH5",
-   "town": "DEESIDE",
-   "postcodes": 10,
-   "postcode_list": "CH5 3AU, CH5 3BP, CH5 3EA, CH5 3BN, CH5 3GU, CH5 3BB, CH5 3AZ, CH5 3AY, CH5 1AA, CH5 3AQ",
-   "started": "Tue 3 Nov, 20:53",
-   "eta": "Wed 4 Nov, 06:00",
-   "message": "We have to turn the power off in the CH5 postcode area of DEESIDE at 23:00 so our engineers can safely carry out emergency repairs to an underground cable fault. We aim to restore power by 04/11/2026, 06:00. To protect your equipment, please switch off and unplug all electrical appliances, including your boiler. We will update this message if the information changes. We apologise for the inconvenience and thank you for your patience.",
-   "planned": false,
-   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2509874-i&postcode=",
-   "restored_at": "Wed 4 Nov, 04:58",
-   "area": "Queensferry, Connah's Quay, Shotton and Hawarden"
   }
  ],
  "stats": {
