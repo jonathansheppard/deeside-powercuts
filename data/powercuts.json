@@ -1,23 +1,22 @@
 {
- "checked_at": "2026-11-06T13:00:01.986941+00:00",
+ "checked_at": "2026-11-06T13:20:01.790904+00:00",
  "live": [],
- "planned": [
+ "planned": [],
+ "restored": [
   {
    "ref": "INCD-932061-f",
    "outcodes": "CH5",
    "town": "",
    "postcodes": 2,
    "postcode_list": "CH5 1LB, CH5 2LH",
-   "started": "Tue 20 Oct, 13:06",
+   "started": "Tue 20 Oct, 14:06",
    "eta": "Fri 6 Nov, 16:00",
-   "message": "The electricity supply to your premises may currently be affected by planned work. You should have received a letter explaining this. We hope to be able to restore your supplies by 06-NOV-2026 16:00. Please accept our sincere apologies for any inconvenience this is causing.",
+   "message": "There was a fault in your area which has now been resolved. If you are still without Power. please call us on the number displayed below. Central & Southern Scotland: 0845 272 7999 or Cheshire Merseyside North Wales & North Shropshire: 0845 272 2424",
    "planned": true,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-932061-f&postcode=",
-   "restored_at": "",
+   "restored_at": "Fri 6 Nov, 16:00",
    "area": "Queensferry, Connah's Quay, Shotton and Hawarden"
-  }
- ],
- "restored": [
+  },
   {
    "ref": "INCD-694588-r",
    "outcodes": "CH4",
