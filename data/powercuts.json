@@ -1,6 +1,21 @@
 {
- "checked_at": "2026-11-07T09:25:01.188964+00:00",
- "live": [],
+ "checked_at": "2026-11-07T09:55:01.253411+00:00",
+ "live": [
+  {
+   "ref": "INCD-695614-r",
+   "outcodes": "CH4",
+   "town": "",
+   "postcodes": 9,
+   "postcode_list": "CH4 0PX, CH4 0PP, CH4 0NT, CH4 0PQ, CH4 0PG, CH4 0EG, CH4 0ED, CH4 0PU, CH4 0PT",
+   "started": "Sat 7 Nov, 08:13",
+   "eta": "Sat 7 Nov, 14:40",
+   "message": "There is a power cut affecting the CH4 postcode area of Broughton. We aim to restore power by 14:40 Our engineers have attended site and identified faulty equipment. For safety reasons, power has been isolated while repairs are carried out. We will keep you updated with any changes. We are sorry for the inconvenience and thank you for your patience.",
+   "planned": false,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-695614-r&postcode=",
+   "restored_at": "",
+   "area": "Saltney, Broughton and Penyffordd"
+  }
+ ],
  "planned": [],
  "restored": [
   {
@@ -50,8 +65,8 @@
   "since": "26 October 2026",
   "month_label": "November",
   "year_label": "2026",
-  "this_month": 11,
-  "this_year": 22,
+  "this_month": 12,
+  "this_year": 23,
   "average_minutes": 266,
   "longest": {
    "minutes": 593,
@@ -63,8 +78,8 @@
    {
     "outcode": "CH4",
     "area": "Saltney, Broughton and Penyffordd",
-    "this_year": 1,
-    "this_month": 1,
+    "this_year": 2,
+    "this_month": 2,
     "average_minutes": 448,
     "longest_minutes": 448
    },
@@ -176,11 +191,18 @@
     },
     {
      "label": "7 Nov",
-     "count": 0
+     "count": 1
     }
    ]
   },
   "recent": [
+   {
+    "start": "Sat 7 Nov, 08:13",
+    "end": null,
+    "duration_minutes": null,
+    "outcodes": "CH4",
+    "town": ""
+   },
    {
     "start": "Thu 5 Nov, 10:49",
     "end": "Thu 5 Nov, 18:18",
@@ -313,13 +335,6 @@
     "duration_minutes": 268,
     "outcodes": "CH8",
     "town": ""
-   },
-   {
-    "start": "Tue 27 Oct, 14:41",
-    "end": "Tue 27 Oct, 15:20",
-    "duration_minutes": 39,
-    "outcodes": "CH5",
-    "town": "DEESIDE"
    }
   ]
  }
