@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-07T14:30:01.396471+00:00",
+ "checked_at": "2026-11-07T14:45:01.538997+00:00",
  "live": [],
  "planned": [],
  "restored": [
@@ -44,20 +44,6 @@
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-694588-r&postcode=",
    "restored_at": "Thu 5 Nov, 18:18",
    "area": "Saltney, Broughton and Penyffordd"
-  },
-  {
-   "ref": "INCD-684118-r",
-   "outcodes": "CH8",
-   "town": "",
-   "postcodes": 12,
-   "postcode_list": "CH8 8LS, CH8 8AD, CH8 8LR, CH8 8SU, CH8 7RP, CH8 8AJ, CH8 8LP, CH8 8LD, CH8 7PN, CH8 8AL, CH8 8SZ, LL",
-   "started": "Thu 22 Oct, 14:00",
-   "eta": "Thu 5 Nov, 16:00",
-   "message": "There was a fault in your area which has now been resolved. If you are still without Power. please call us on the number displayed below. Central & Southern Scotland: 0845 272 7999 or Cheshire Merseyside North Wales & North Shropshire: 0845 272 2424",
-   "planned": true,
-   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-684118-r&postcode=",
-   "restored_at": "Thu 5 Nov, 16:00",
-   "area": "Holywell and the coast"
   }
  ],
  "stats": {
