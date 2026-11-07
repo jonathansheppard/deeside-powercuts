@@ -1,6 +1,8 @@
 {
- "checked_at": "2026-11-07T10:25:01.626812+00:00",
- "live": [
+ "checked_at": "2026-11-07T10:45:00.743527+00:00",
+ "live": [],
+ "planned": [],
+ "restored": [
   {
    "ref": "INCD-695614-r",
    "outcodes": "CH4",
@@ -12,12 +14,9 @@
    "message": "There is a power cut affecting the CH4 postcode area of Broughton. We aim to restore power by 14:40 Our engineers have attended site and identified faulty equipment. For safety reasons, power has been isolated while repairs are carried out. We will keep you updated with any changes. We are sorry for the inconvenience and thank you for your patience.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-695614-r&postcode=",
-   "restored_at": "",
+   "restored_at": "Sat 7 Nov, 10:44",
    "area": "Saltney, Broughton and Penyffordd"
-  }
- ],
- "planned": [],
- "restored": [
+  },
   {
    "ref": "INCD-932061-f",
    "outcodes": "CH5",
@@ -67,7 +66,7 @@
   "year_label": "2026",
   "this_month": 12,
   "this_year": 23,
-  "average_minutes": 266,
+  "average_minutes": 261,
   "longest": {
    "minutes": 593,
    "town": "BUCKLEY",
@@ -80,7 +79,7 @@
     "area": "Saltney, Broughton and Penyffordd",
     "this_year": 2,
     "this_month": 2,
-    "average_minutes": 448,
+    "average_minutes": 299,
     "longest_minutes": 448
    },
    {
@@ -123,7 +122,7 @@
    },
    {
     "label": "1 to 3 hours",
-    "count": 4
+    "count": 5
    },
    {
     "label": "3 to 6 hours",
@@ -198,8 +197,8 @@
   "recent": [
    {
     "start": "Sat 7 Nov, 08:13",
-    "end": null,
-    "duration_minutes": null,
+    "end": "Sat 7 Nov, 10:44",
+    "duration_minutes": 150,
     "outcodes": "CH4",
     "town": ""
    },
