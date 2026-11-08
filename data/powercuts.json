@@ -1,6 +1,21 @@
 {
- "checked_at": "2026-11-08T17:40:02.028468+00:00",
- "live": [],
+ "checked_at": "2026-11-08T17:55:01.518871+00:00",
+ "live": [
+  {
+   "ref": "INCD-695968-r",
+   "outcodes": "CH4",
+   "town": "",
+   "postcodes": 9,
+   "postcode_list": "CH4 0YR, CH4 0PJ, CH4 0XD, CH4 0LG, CH4 0LJ, CH4 0LQ, CH4 0LB, CH4 0YS, CH4 0XA",
+   "started": "Sun 8 Nov, 17:44",
+   "eta": "Sun 8 Nov, 21:59",
+   "message": "There is an unexpected power cut affecting the CH4 postcode area of CHESTER. Our emergency response team has been alerted to investigate the fault. We aim to restore power by 08/11/2026, 21:59. We apologise for the inconvenience and thank you for your patience.",
+   "planned": false,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-695968-r&postcode=",
+   "restored_at": "",
+   "area": "Saltney, Broughton and Penyffordd"
+  }
+ ],
  "planned": [],
  "restored": [
   {
@@ -22,8 +37,8 @@
   "since": "26 October 2026",
   "month_label": "November",
   "year_label": "2026",
-  "this_month": 12,
-  "this_year": 23,
+  "this_month": 13,
+  "this_year": 24,
   "average_minutes": 261,
   "longest": {
    "minutes": 593,
@@ -35,8 +50,8 @@
    {
     "outcode": "CH4",
     "area": "Saltney, Broughton and Penyffordd",
-    "this_year": 2,
-    "this_month": 2,
+    "this_year": 3,
+    "this_month": 3,
     "average_minutes": 299,
     "longest_minutes": 448
    },
@@ -152,11 +167,18 @@
     },
     {
      "label": "8 Nov",
-     "count": 0
+     "count": 1
     }
    ]
   },
   "recent": [
+   {
+    "start": "Sun 8 Nov, 17:44",
+    "end": null,
+    "duration_minutes": null,
+    "outcodes": "CH4",
+    "town": ""
+   },
    {
     "start": "Sat 7 Nov, 08:13",
     "end": "Sat 7 Nov, 10:44",
@@ -288,13 +310,6 @@
     "end": "Wed 28 Oct, 10:50",
     "duration_minutes": 150,
     "outcodes": "CH7",
-    "town": ""
-   },
-   {
-    "start": "Wed 28 Oct, 06:52",
-    "end": "Wed 28 Oct, 11:20",
-    "duration_minutes": 268,
-    "outcodes": "CH8",
     "town": ""
    }
   ]
