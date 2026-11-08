@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-08T13:00:02.221104+00:00",
+ "checked_at": "2026-11-08T13:20:02.229167+00:00",
  "live": [],
  "planned": [],
  "restored": [
@@ -16,20 +16,6 @@
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-695614-r&postcode=",
    "restored_at": "Sat 7 Nov, 10:44",
    "area": "Saltney, Broughton and Penyffordd"
-  },
-  {
-   "ref": "INCD-932061-f",
-   "outcodes": "CH5",
-   "town": "",
-   "postcodes": 2,
-   "postcode_list": "CH5 1LB, CH5 2LH",
-   "started": "Tue 20 Oct, 14:06",
-   "eta": "Fri 6 Nov, 16:00",
-   "message": "There was a fault in your area which has now been resolved. If you are still without Power. please call us on the number displayed below. Central & Southern Scotland: 0845 272 7999 or Cheshire Merseyside North Wales & North Shropshire: 0845 272 2424",
-   "planned": true,
-   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-932061-f&postcode=",
-   "restored_at": "Fri 6 Nov, 16:00",
-   "area": "Queensferry, Connah's Quay, Shotton and Hawarden"
   }
  ],
  "stats": {
