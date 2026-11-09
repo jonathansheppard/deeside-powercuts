@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-09T10:40:02.228924+00:00",
+ "checked_at": "2026-11-09T10:45:01.165702+00:00",
  "live": [],
  "planned": [
   {
@@ -30,20 +30,6 @@
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-695968-r&postcode=",
    "restored_at": "Sun 8 Nov, 20:09",
-   "area": "Saltney, Broughton and Penyffordd"
-  },
-  {
-   "ref": "INCD-695614-r",
-   "outcodes": "CH4",
-   "town": "",
-   "postcodes": 9,
-   "postcode_list": "CH4 0PX, CH4 0PP, CH4 0NT, CH4 0PQ, CH4 0PG, CH4 0EG, CH4 0ED, CH4 0PU, CH4 0PT",
-   "started": "Sat 7 Nov, 08:13",
-   "eta": "Sat 7 Nov, 14:40",
-   "message": "There is a power cut affecting the CH4 postcode area of Broughton. We aim to restore power by 14:40 Our engineers have attended site and identified faulty equipment. For safety reasons, power has been isolated while repairs are carried out. We will keep you updated with any changes. We are sorry for the inconvenience and thank you for your patience.",
-   "planned": false,
-   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-695614-r&postcode=",
-   "restored_at": "Sat 7 Nov, 10:44",
    "area": "Saltney, Broughton and Penyffordd"
   }
  ],
