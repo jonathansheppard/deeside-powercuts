@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-10T19:40:01.733724+00:00",
+ "checked_at": "2026-11-10T20:05:01.613920+00:00",
  "live": [],
  "planned": [],
  "restored": [
@@ -44,20 +44,6 @@
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-932133-f&postcode=",
    "restored_at": "Mon 9 Nov, 16:00",
    "area": "Holywell and the coast"
-  },
-  {
-   "ref": "INCD-695968-r",
-   "outcodes": "CH4",
-   "town": "",
-   "postcodes": 9,
-   "postcode_list": "CH4 0YR, CH4 0PJ, CH4 0XD, CH4 0LG, CH4 0LJ, CH4 0LQ, CH4 0LB, CH4 0YS, CH4 0XA",
-   "started": "Sun 8 Nov, 17:44",
-   "eta": "Sun 8 Nov, 21:59",
-   "message": "There is an unexpected power cut affecting the CH4 postcode area of CHESTER. Our emergency response team has been alerted to investigate the fault. We aim to restore power by 08/11/2026, 21:59. We apologise for the inconvenience and thank you for your patience.",
-   "planned": false,
-   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-695968-r&postcode=",
-   "restored_at": "Sun 8 Nov, 20:09",
-   "area": "Saltney, Broughton and Penyffordd"
   }
  ],
  "stats": {
