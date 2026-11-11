@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-11T21:10:02.736788+00:00",
+ "checked_at": "2026-11-11T21:45:01.810134+00:00",
  "live": [
   {
    "ref": "INCD-2510270-i",
@@ -9,7 +9,7 @@
    "postcode_list": "CH8 9DX",
    "started": "Wed 11 Nov, 20:49",
    "eta": "Thu 12 Nov, 01:04",
-   "message": "We are currently experiencing problems with the electricity supply in your area. We are arranging to have engineers investigate the fault, and we hope to have your electricity restored by 12-NOV-2026 01:04. Please accept our sincere apologies for the inconvenience this is causing.",
+   "message": "There is an unexpected power cut affecting the CH8 postcode area of HOLYWELL. Our engineers are onsite. In most cases, our engineers can get your power back on by simply replacing a fuse at the local substation, however, if the fault is complex, this may take us longer to fix. Should this happen, we will keep you updated. We aim to restore power by 12/11/2026, 01:04. We are sorry for the inconvenience and thank you for your patience.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2510270-i&postcode=",
    "restored_at": "",
