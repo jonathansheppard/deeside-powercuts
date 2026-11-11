@@ -1,6 +1,21 @@
 {
- "checked_at": "2026-11-11T20:55:01.575408+00:00",
- "live": [],
+ "checked_at": "2026-11-11T21:10:02.736788+00:00",
+ "live": [
+  {
+   "ref": "INCD-2510270-i",
+   "outcodes": "CH8",
+   "town": "",
+   "postcodes": 1,
+   "postcode_list": "CH8 9DX",
+   "started": "Wed 11 Nov, 20:49",
+   "eta": "Thu 12 Nov, 01:04",
+   "message": "We are currently experiencing problems with the electricity supply in your area. We are arranging to have engineers investigate the fault, and we hope to have your electricity restored by 12-NOV-2026 01:04. Please accept our sincere apologies for the inconvenience this is causing.",
+   "planned": false,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2510270-i&postcode=",
+   "restored_at": "",
+   "area": "Holywell and the coast"
+  }
+ ],
  "planned": [],
  "restored": [
   {
@@ -50,8 +65,8 @@
   "since": "26 October 2026",
   "month_label": "November",
   "year_label": "2026",
-  "this_month": 13,
-  "this_year": 24,
+  "this_month": 14,
+  "this_year": 25,
   "average_minutes": 256,
   "longest": {
    "minutes": 593,
@@ -95,8 +110,8 @@
    {
     "outcode": "CH8",
     "area": "Holywell and the coast",
-    "this_year": 3,
-    "this_month": 2,
+    "this_year": 4,
+    "this_month": 3,
     "average_minutes": 277,
     "longest_minutes": 284
    }
@@ -192,11 +207,18 @@
     },
     {
      "label": "11 Nov",
-     "count": 0
+     "count": 1
     }
    ]
   },
   "recent": [
+   {
+    "start": "Wed 11 Nov, 20:49",
+    "end": null,
+    "duration_minutes": null,
+    "outcodes": "CH8",
+    "town": ""
+   },
    {
     "start": "Sun 8 Nov, 17:44",
     "end": "Sun 8 Nov, 20:09",
@@ -327,13 +349,6 @@
     "start": "Wed 28 Oct, 23:54",
     "end": "Thu 29 Oct, 00:53",
     "duration_minutes": 59,
-    "outcodes": "CH7",
-    "town": ""
-   },
-   {
-    "start": "Wed 28 Oct, 08:20",
-    "end": "Wed 28 Oct, 10:50",
-    "duration_minutes": 150,
     "outcodes": "CH7",
     "town": ""
    }
