@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-12T15:35:01.092154+00:00",
+ "checked_at": "2026-11-12T16:00:01.652300+00:00",
  "live": [],
  "planned": [
   {
@@ -44,34 +44,6 @@
    "planned": true,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-686056-r&postcode=",
    "restored_at": "Wed 11 Nov, 16:00",
-   "area": "Holywell and the coast"
-  },
-  {
-   "ref": "INCD-684424-r",
-   "outcodes": "CH8, CH7",
-   "town": "",
-   "postcodes": 5,
-   "postcode_list": "CH8 8RY, CH8 8RF, CH7 5BW, CH8 8RX, CH8",
-   "started": "Thu 22 Oct, 22:25",
-   "eta": "Tue 10 Nov, 16:00",
-   "message": "There was a fault in your area which has now been resolved. If you are still without Power. please call us on the number displayed below. Central & Southern Scotland: 0845 272 7999 or Cheshire Merseyside North Wales & North Shropshire: 0845 272 2424",
-   "planned": true,
-   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-684424-r&postcode=",
-   "restored_at": "Tue 10 Nov, 16:00",
-   "area": "Holywell and the coast; Mold, Buckley and nearby villages"
-  },
-  {
-   "ref": "INCD-684082-r",
-   "outcodes": "CH8",
-   "town": "",
-   "postcodes": 8,
-   "postcode_list": "CH8 8RS, CH8 8PE, CH8 8NS, CH8 8PH, CH8 8RE, CH8, CH8 8PN, CH8 8PB",
-   "started": "Thu 22 Oct, 13:37",
-   "eta": "Tue 10 Nov, 16:00",
-   "message": "There was a fault in your area which has now been resolved. If you are still without Power. please call us on the number displayed below. Central & Southern Scotland: 0845 272 7999 or Cheshire Merseyside North Wales & North Shropshire: 0845 272 2424",
-   "planned": true,
-   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-684082-r&postcode=",
-   "restored_at": "Tue 10 Nov, 16:00",
    "area": "Holywell and the coast"
   }
  ],
