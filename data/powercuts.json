@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-13T23:00:02.225386+00:00",
+ "checked_at": "2026-11-13T23:05:00.914641+00:00",
  "live": [],
  "planned": [],
  "restored": [
@@ -57,20 +57,6 @@
    "planned": true,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-689464-r&postcode=",
    "restored_at": "Thu 12 Nov, 16:00",
-   "area": "Holywell and the coast"
-  },
-  {
-   "ref": "INCD-2510270-i",
-   "outcodes": "CH8",
-   "town": "",
-   "postcodes": 1,
-   "postcode_list": "CH8 9DX",
-   "started": "Wed 11 Nov, 20:49",
-   "eta": "Thu 12 Nov, 01:04",
-   "message": "We are currently experiencing problems with the electricity supply in your area. We are arranging to have engineers investigate the fault, and we hope to have your electricity restored by 12-NOV-2026 01:04. Please accept our sincere apologies for the inconvenience this is causing.",
-   "planned": false,
-   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2510270-i&postcode=",
-   "restored_at": "Wed 11 Nov, 23:04",
    "area": "Holywell and the coast"
   }
  ],
