@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-13T11:40:01.677351+00:00",
+ "checked_at": "2026-11-13T11:45:01.463709+00:00",
  "live": [],
  "planned": [
   {
@@ -15,7 +15,9 @@
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-691372-r&postcode=",
    "restored_at": "",
    "area": "Holywell and the coast"
-  },
+  }
+ ],
+ "restored": [
   {
    "ref": "INCD-932727-f",
    "outcodes": "CH5, CH7",
@@ -24,14 +26,12 @@
    "postcode_list": "CH5 1RF, CH5 3BZ, CH7 6LD, CH5 4JR, CH5 3AH",
    "started": "Tue 27 Oct, 15:16",
    "eta": "Fri 13 Nov, 10:00",
-   "message": "The electricity supply to your premises may currently be affected by planned work. You should have received a letter explaining this. We hope to be able to restore your supplies by 13-NOV-2026 10:00. Please accept our sincere apologies for any inconvenience this is causing.",
+   "message": "There was a fault in your area which has now been resolved. If you are still without Power. please call us on the number displayed below. Central & Southern Scotland: 0845 272 7999 or Cheshire Merseyside North Wales & North Shropshire: 0845 272 2424",
    "planned": true,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-932727-f&postcode=",
-   "restored_at": "",
+   "restored_at": "Fri 13 Nov, 10:00",
    "area": "Queensferry, Connah's Quay, Shotton and Hawarden; Mold, Buckley and nearby villages"
-  }
- ],
- "restored": [
+  },
   {
    "ref": "INCD-689464-r",
    "outcodes": "CH8",
