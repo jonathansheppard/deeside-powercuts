@@ -1,7 +1,8 @@
 {
- "checked_at": "2026-11-13T16:00:02.335493+00:00",
+ "checked_at": "2026-11-13T16:35:01.254415+00:00",
  "live": [],
- "planned": [
+ "planned": [],
+ "restored": [
   {
    "ref": "INCD-691372-r",
    "outcodes": "CH8",
@@ -10,14 +11,12 @@
    "postcode_list": "CH8 9JW, CH8 9JN, CH8 9JS, CH8 9NH, LL19 9TA, CH8 9RD, LL19 9TB, CH8 8EN",
    "started": "Thu 29 Oct, 13:08",
    "eta": "Fri 13 Nov, 15:00",
-   "message": "The electricity supply to your premises may currently be affected by planned work. You should have received a letter explaining this. We hope to be able to restore your supplies by 13-NOV-2026 15:00. Please accept our sincere apologies for any inconvenience this is causing.",
+   "message": "There was a fault in your area which has now been resolved. If you are still without Power. please call us on the number displayed below. Central & Southern Scotland: 0845 272 7999 or Cheshire Merseyside North Wales & North Shropshire: 0845 272 2424",
    "planned": true,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-691372-r&postcode=",
-   "restored_at": "",
+   "restored_at": "Fri 13 Nov, 15:00",
    "area": "Holywell and the coast"
-  }
- ],
- "restored": [
+  },
   {
    "ref": "INCD-932727-f",
    "outcodes": "CH5, CH7",
