@@ -1,7 +1,36 @@
 {
- "checked_at": "2026-11-13T08:20:01.683583+00:00",
+ "checked_at": "2026-11-13T08:25:01.510536+00:00",
  "live": [],
- "planned": [],
+ "planned": [
+  {
+   "ref": "INCD-691372-r",
+   "outcodes": "CH8",
+   "town": "",
+   "postcodes": 8,
+   "postcode_list": "CH8 9JW, CH8 9JN, CH8 9JS, CH8 9NH, LL19 9TA, CH8 9RD, LL19 9TB, CH8 8EN",
+   "started": "Thu 29 Oct, 13:08",
+   "eta": "Fri 13 Nov, 15:00",
+   "message": "The electricity supply to your premises may currently be affected by planned work. You should have received a letter explaining this. We hope to be able to restore your supplies by 13-NOV-2026 15:00. Please accept our sincere apologies for any inconvenience this is causing.",
+   "planned": true,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-691372-r&postcode=",
+   "restored_at": "",
+   "area": "Holywell and the coast"
+  },
+  {
+   "ref": "INCD-932727-f",
+   "outcodes": "CH5, CH7",
+   "town": "",
+   "postcodes": 5,
+   "postcode_list": "CH5 1RF, CH5 3BZ, CH7 6LD, CH5 4JR, CH5 3AH",
+   "started": "Tue 27 Oct, 15:16",
+   "eta": "Fri 13 Nov, 10:00",
+   "message": "The electricity supply to your premises may currently be affected by planned work. You should have received a letter explaining this. We hope to be able to restore your supplies by 13-NOV-2026 10:00. Please accept our sincere apologies for any inconvenience this is causing.",
+   "planned": true,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-932727-f&postcode=",
+   "restored_at": "",
+   "area": "Queensferry, Connah's Quay, Shotton and Hawarden; Mold, Buckley and nearby villages"
+  }
+ ],
  "restored": [
   {
    "ref": "INCD-689464-r",
