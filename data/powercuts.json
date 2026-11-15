@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-15T14:25:01.870943+00:00",
+ "checked_at": "2026-11-15T15:00:01.952624+00:00",
  "live": [],
  "planned": [],
  "restored": [
@@ -16,20 +16,6 @@
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-715655-k&postcode=",
    "restored_at": "Fri 13 Nov, 22:09",
    "area": "Queensferry, Connah's Quay, Shotton and Hawarden"
-  },
-  {
-   "ref": "INCD-691372-r",
-   "outcodes": "CH8",
-   "town": "",
-   "postcodes": 8,
-   "postcode_list": "CH8 9JW, CH8 9JN, CH8 9JS, CH8 9NH, LL19 9TA, CH8 9RD, LL19 9TB, CH8 8EN",
-   "started": "Thu 29 Oct, 13:08",
-   "eta": "Fri 13 Nov, 15:00",
-   "message": "There was a fault in your area which has now been resolved. If you are still without Power. please call us on the number displayed below. Central & Southern Scotland: 0845 272 7999 or Cheshire Merseyside North Wales & North Shropshire: 0845 272 2424",
-   "planned": true,
-   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-691372-r&postcode=",
-   "restored_at": "Fri 13 Nov, 15:00",
-   "area": "Holywell and the coast"
   }
  ],
  "stats": {
