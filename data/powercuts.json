@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-16T11:25:00.898485+00:00",
+ "checked_at": "2026-11-16T11:30:01.757846+00:00",
  "live": [],
  "planned": [],
  "restored": [
@@ -14,7 +14,7 @@
    "message": "We are currently experiencing problems with the electricity supply in your area. We are arranging to have engineers investigate the fault, and we hope to have your electricity restored by 16-NOV-2026 13:16. Please accept our sincere apologies for the inconvenience this is causing.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-715793-k&postcode=",
-   "restored_at": "Mon 16 Nov, 11:23",
+   "restored_at": "Mon 16 Nov, 11:28",
    "area": "Queensferry, Connah's Quay, Shotton and Hawarden"
   }
  ],
@@ -24,7 +24,7 @@
   "year_label": "2026",
   "this_month": 16,
   "this_year": 27,
-  "average_minutes": 236,
+  "average_minutes": 237,
   "longest": {
    "minutes": 593,
    "town": "BUCKLEY",
@@ -191,8 +191,8 @@
   "recent": [
    {
     "start": "Mon 16 Nov, 11:16",
-    "end": "Mon 16 Nov, 11:23",
-    "duration_minutes": 7,
+    "end": "Mon 16 Nov, 11:28",
+    "duration_minutes": 12,
     "outcodes": "CH5",
     "town": "DEESIDE"
    },
