@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-18T22:25:01.317360+00:00",
+ "checked_at": "2026-11-18T22:40:01.743440+00:00",
  "live": [
   {
    "ref": "INCD-2512388-i",
@@ -9,7 +9,7 @@
    "postcode_list": "CH6 5JW, CH6 5JN, CH6 5DU, CH6 5DV, CH6 5JT, CH6 5JD, CH6 5JH, CH6 5JG",
    "started": "Wed 18 Nov, 22:09",
    "eta": "Thu 19 Nov, 02:24",
-   "message": "There is an unplanned power cut affecting the CH6 postcode area of FLINT. We have engineers on the way. Once they arrive, they will get straight to work on investigating the fault. We are aiming to have your power restored by 19/11/2026, 02:24. We are sorry for the inconvenience and thank you for your patience.",
+   "message": "There is an unexpected power cut affecting the CH6 postcode area of FLINT. Our engineers are onsite. In most cases, our engineers can get your power back on by simply replacing a fuse at the local substation, however, if the fault is complex, this may take us longer to fix. Should this happen, we will keep you updated. We aim to restore power by 19/11/2026, 02:24. We are sorry for the inconvenience and thank you for your patience.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2512388-i&postcode=",
    "restored_at": "",
