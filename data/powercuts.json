@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-18T23:40:02.110505+00:00",
+ "checked_at": "2026-11-18T23:45:01.531605+00:00",
  "live": [],
  "planned": [],
  "restored": [
@@ -11,10 +11,10 @@
    "postcode_list": "CH6 5JW, CH6 5JN, CH6 5DU, CH6 5DV, CH6 5JT, CH6 5JD, CH6 5JH, CH6 5JG",
    "started": "Wed 18 Nov, 22:09",
    "eta": "Thu 19 Nov, 02:24",
-   "message": "There is an unplanned power cut affecting the CH6 postcode area of FLINT. We have engineers on the way. Once they arrive, they will get straight to work on investigating the fault. We are aiming to have your power restored by 19/11/2026, 02:24. We are sorry for the inconvenience and thank you for your patience.",
+   "message": "There is an unexpected power cut affecting the CH6 postcode area of FLINT. Our engineers are onsite. In most cases, our engineers can get your power back on by simply replacing a fuse at the local substation, however, if the fault is complex, this may take us longer to fix. Should this happen, we will keep you updated. We aim to restore power by 19/11/2026, 02:24. We are sorry for the inconvenience and thank you for your patience.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2512388-i&postcode=",
-   "restored_at": "Wed 18 Nov, 23:40",
+   "restored_at": "Wed 18 Nov, 23:43",
    "area": "Flint and Bagillt"
   },
   {
@@ -95,8 +95,8 @@
     "area": "Flint and Bagillt",
     "this_year": 2,
     "this_month": 1,
-    "average_minutes": 92,
-    "longest_minutes": 93
+    "average_minutes": 94,
+    "longest_minutes": 94
    },
    {
     "outcode": "CH7",
@@ -248,8 +248,8 @@
    },
    {
     "start": "Wed 18 Nov, 22:09",
-    "end": "Wed 18 Nov, 23:40",
-    "duration_minutes": 91,
+    "end": "Wed 18 Nov, 23:43",
+    "duration_minutes": 94,
     "outcodes": "CH6",
     "town": "FLINT"
    },
