@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-18T11:10:02.047098+00:00",
+ "checked_at": "2026-11-18T11:20:02.284422+00:00",
  "live": [
   {
    "ref": "INCD-2511854-i",
@@ -9,7 +9,7 @@
    "postcode_list": "CH5 3HD, CH5 3HF",
    "started": "Wed 18 Nov, 05:11",
    "eta": "Wed 18 Nov, 14:32",
-   "message": "We apologise for the further interruption to your electricity supply in the CH5 area of Deeside. Our engineers are on site carrying out network investigations and working to restore power as quickly and safely as possible. We currently expect supplies to be restored by 18/11/2026 at 12:32. If this information changes, we will update you where possible. We regret the inconvenience and appreciate your patience.",
+   "message": "We have restored power to some properties in the CH5 postcode area of Deeside. To help reduce further disruption while our engineers continue investigating and repairing the fault, the remaining affected properties will be supplied by a temporary generator by 18/11/2026 at 14:32. We apologise for the intermittent power interruptions experienced today and for any inconvenience this has caused. We will provide further updates if the situation changes and thank you for your patience and understanding while we complete our repair work.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2511854-i&postcode=",
    "restored_at": "",
