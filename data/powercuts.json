@@ -1,6 +1,8 @@
 {
- "checked_at": "2026-11-18T23:35:01.236824+00:00",
- "live": [
+ "checked_at": "2026-11-18T23:40:02.110505+00:00",
+ "live": [],
+ "planned": [],
+ "restored": [
   {
    "ref": "INCD-2512388-i",
    "outcodes": "CH6",
@@ -9,15 +11,12 @@
    "postcode_list": "CH6 5JW, CH6 5JN, CH6 5DU, CH6 5DV, CH6 5JT, CH6 5JD, CH6 5JH, CH6 5JG",
    "started": "Wed 18 Nov, 22:09",
    "eta": "Thu 19 Nov, 02:24",
-   "message": "There is an unexpected power cut affecting the CH6 postcode area of FLINT. Our engineers are onsite. In most cases, our engineers can get your power back on by simply replacing a fuse at the local substation, however, if the fault is complex, this may take us longer to fix. Should this happen, we will keep you updated. We aim to restore power by 19/11/2026, 02:24. We are sorry for the inconvenience and thank you for your patience.",
+   "message": "There is an unplanned power cut affecting the CH6 postcode area of FLINT. We have engineers on the way. Once they arrive, they will get straight to work on investigating the fault. We are aiming to have your power restored by 19/11/2026, 02:24. We are sorry for the inconvenience and thank you for your patience.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2512388-i&postcode=",
-   "restored_at": "",
+   "restored_at": "Wed 18 Nov, 23:40",
    "area": "Flint and Bagillt"
-  }
- ],
- "planned": [],
- "restored": [
+  },
   {
    "ref": "INCD-716081-k",
    "outcodes": "CH8",
@@ -67,7 +66,7 @@
   "year_label": "2026",
   "this_month": 19,
   "this_year": 30,
-  "average_minutes": 243,
+  "average_minutes": 238,
   "longest": {
    "minutes": 612,
    "town": "DEESIDE",
@@ -96,7 +95,7 @@
     "area": "Flint and Bagillt",
     "this_year": 2,
     "this_month": 1,
-    "average_minutes": 93,
+    "average_minutes": 92,
     "longest_minutes": 93
    },
    {
@@ -123,7 +122,7 @@
    },
    {
     "label": "1 to 3 hours",
-    "count": 8
+    "count": 9
    },
    {
     "label": "3 to 6 hours",
@@ -249,8 +248,8 @@
    },
    {
     "start": "Wed 18 Nov, 22:09",
-    "end": null,
-    "duration_minutes": null,
+    "end": "Wed 18 Nov, 23:40",
+    "duration_minutes": 91,
     "outcodes": "CH6",
     "town": "FLINT"
    },
