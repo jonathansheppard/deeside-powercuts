@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-18T09:55:01.374304+00:00",
+ "checked_at": "2026-11-18T10:10:02.187946+00:00",
  "live": [
   {
    "ref": "INCD-2511854-i",
@@ -16,7 +16,22 @@
    "area": "Queensferry, Connah's Quay, Shotton and Hawarden"
   }
  ],
- "planned": [],
+ "planned": [
+  {
+   "ref": "INCD-932991-f",
+   "outcodes": "CH8",
+   "town": "",
+   "postcodes": 6,
+   "postcode_list": "CH8 8JG, CH8 8JJ, CH8 8JQ, CH8, CH8 8LS, CH8 8JR",
+   "started": "Fri 30 Oct, 18:25",
+   "eta": "Wed 18 Nov, 12:00",
+   "message": "The electricity supply to your premises may currently be affected by planned work. You should have received a letter explaining this. We hope to be able to restore your supplies by 18-NOV-2026 12:00. Please accept our sincere apologies for any inconvenience this is causing.",
+   "planned": true,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-932991-f&postcode=",
+   "restored_at": "",
+   "area": "Holywell and the coast"
+  }
+ ],
  "restored": [],
  "stats": {
   "since": "26 October 2026",
