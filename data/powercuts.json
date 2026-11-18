@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-18T06:45:00.916671+00:00",
+ "checked_at": "2026-11-18T06:50:01.376782+00:00",
  "live": [],
  "planned": [],
  "restored": [
@@ -11,10 +11,10 @@
    "postcode_list": "CH5 3HD, CH5 3HF",
    "started": "Wed 18 Nov, 05:11",
    "eta": "Wed 18 Nov, 09:26",
-   "message": "There is a power cut affecting the L6 postcode area of LIVERPOOL We had no advance warning of this and first became aware of it at 05:11 Our next available engineer will attend site to find and fix the fault as quickly and as safely as possible. We apologise for the inconvenience and thank you for your patience.",
+   "message": "There is an unexpected power cut affecting the CH5 postcode area of DEESIDE. Our engineers are onsite. In most cases, our engineers can get your power back on by simply replacing a fuse at the local substation, however, if the fault is complex, this may take us longer to fix. Should this happen, we will keep you updated. We aim to restore power by 18/11/2026, 09:26. We are sorry for the inconvenience and thank you for your patience.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2511854-i&postcode=",
-   "restored_at": "Wed 18 Nov, 06:45",
+   "restored_at": "Wed 18 Nov, 06:49",
    "area": "Queensferry, Connah's Quay, Shotton and Hawarden"
   }
  ],
@@ -24,7 +24,7 @@
   "year_label": "2026",
   "this_month": 17,
   "this_year": 28,
-  "average_minutes": 232,
+  "average_minutes": 233,
   "longest": {
    "minutes": 593,
    "town": "BUCKLEY",
@@ -199,8 +199,8 @@
   "recent": [
    {
     "start": "Wed 18 Nov, 05:11",
-    "end": "Wed 18 Nov, 06:45",
-    "duration_minutes": 94,
+    "end": "Wed 18 Nov, 06:49",
+    "duration_minutes": 98,
     "outcodes": "CH5",
     "town": "DEESIDE"
    },
