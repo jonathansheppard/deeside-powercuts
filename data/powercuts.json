@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-18T23:15:01.230212+00:00",
+ "checked_at": "2026-11-18T23:35:01.236824+00:00",
  "live": [
   {
    "ref": "INCD-2512388-i",
@@ -18,6 +18,20 @@
  ],
  "planned": [],
  "restored": [
+  {
+   "ref": "INCD-716081-k",
+   "outcodes": "CH8",
+   "town": "",
+   "postcodes": 25,
+   "postcode_list": "LL19 9TB, CH8 9JN, CH8 9JS, CH8 9NH, LL19 9SU, CH8 9RD, CH8 9JJ, CH8 9RL, CH8 9UU, CH8 9JY, CH8 9JH, CH8 9RT, CH8 9RS, CH8 9SB, CH8 9RR, CH8 9SA, CH8 9RP, CH8 9RF, CH8 9RE, CH8 9RH, CH8 9RQ, CH8 9RB, CH8 9RG, **** ***, CH8 9JW",
+   "started": "Wed 18 Nov, 23:23",
+   "eta": "Thu 19 Nov, 01:23",
+   "message": "There is a power cut affecting the CH8 postcode area of HOLYWELL. We aim to restore power by 19/11/2026, 01:23 but may be able to get some customers on sooner. The timeframe may change based on our investigations and the work required to fix the issue. We will keep you updated with any changes. We are sorry for the inconvenience and thank you for your patience.",
+   "planned": false,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-716081-k&postcode=",
+   "restored_at": "Wed 18 Nov, 23:34",
+   "area": "Holywell and the coast"
+  },
   {
    "ref": "INCD-2511854-i",
    "outcodes": "CH5",
@@ -51,9 +65,9 @@
   "since": "26 October 2026",
   "month_label": "November",
   "year_label": "2026",
-  "this_month": 18,
-  "this_year": 29,
-  "average_minutes": 251,
+  "this_month": 19,
+  "this_year": 30,
+  "average_minutes": 243,
   "longest": {
    "minutes": 612,
    "town": "DEESIDE",
@@ -96,16 +110,16 @@
    {
     "outcode": "CH8",
     "area": "Holywell and the coast",
-    "this_year": 4,
-    "this_month": 3,
-    "average_minutes": 242,
+    "this_year": 5,
+    "this_month": 4,
+    "average_minutes": 195,
     "longest_minutes": 284
    }
   ],
   "bands": [
    {
     "label": "Under 1 hour",
-    "count": 4
+    "count": 5
    },
    {
     "label": "1 to 3 hours",
@@ -221,11 +235,18 @@
     },
     {
      "label": "18 Nov",
-     "count": 2
+     "count": 3
     }
    ]
   },
   "recent": [
+   {
+    "start": "Wed 18 Nov, 23:23",
+    "end": "Wed 18 Nov, 23:34",
+    "duration_minutes": 10,
+    "outcodes": "CH8",
+    "town": ""
+   },
    {
     "start": "Wed 18 Nov, 22:09",
     "end": null,
@@ -358,13 +379,6 @@
     "duration_minutes": 252,
     "outcodes": "CH5",
     "town": ""
-   },
-   {
-    "start": "Sat 31 Oct, 09:41",
-    "end": "Sat 31 Oct, 10:20",
-    "duration_minutes": 39,
-    "outcodes": "CH7",
-    "town": "BUCKLEY"
    }
   ]
  }
