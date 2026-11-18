@@ -1,6 +1,8 @@
 {
- "checked_at": "2026-11-18T06:20:01.781209+00:00",
- "live": [
+ "checked_at": "2026-11-18T06:45:00.916671+00:00",
+ "live": [],
+ "planned": [],
+ "restored": [
   {
    "ref": "INCD-2511854-i",
    "outcodes": "CH5",
@@ -9,22 +11,20 @@
    "postcode_list": "CH5 3HD, CH5 3HF",
    "started": "Wed 18 Nov, 05:11",
    "eta": "Wed 18 Nov, 09:26",
-   "message": "There is an unexpected power cut affecting the CH5 postcode area of DEESIDE. Our engineers are onsite. In most cases, our engineers can get your power back on by simply replacing a fuse at the local substation, however, if the fault is complex, this may take us longer to fix. Should this happen, we will keep you updated. We aim to restore power by 18/11/2026, 09:26. We are sorry for the inconvenience and thank you for your patience.",
+   "message": "There is a power cut affecting the L6 postcode area of LIVERPOOL We had no advance warning of this and first became aware of it at 05:11 Our next available engineer will attend site to find and fix the fault as quickly and as safely as possible. We apologise for the inconvenience and thank you for your patience.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2511854-i&postcode=",
-   "restored_at": "",
+   "restored_at": "Wed 18 Nov, 06:45",
    "area": "Queensferry, Connah's Quay, Shotton and Hawarden"
   }
  ],
- "planned": [],
- "restored": [],
  "stats": {
   "since": "26 October 2026",
   "month_label": "November",
   "year_label": "2026",
   "this_month": 17,
   "this_year": 28,
-  "average_minutes": 238,
+  "average_minutes": 232,
   "longest": {
    "minutes": 593,
    "town": "BUCKLEY",
@@ -45,7 +45,7 @@
     "area": "Queensferry, Connah's Quay, Shotton and Hawarden",
     "this_year": 10,
     "this_month": 5,
-    "average_minutes": 271,
+    "average_minutes": 254,
     "longest_minutes": 571
    },
    {
@@ -80,7 +80,7 @@
    },
    {
     "label": "1 to 3 hours",
-    "count": 8
+    "count": 9
    },
    {
     "label": "3 to 6 hours",
@@ -199,8 +199,8 @@
   "recent": [
    {
     "start": "Wed 18 Nov, 05:11",
-    "end": null,
-    "duration_minutes": null,
+    "end": "Wed 18 Nov, 06:45",
+    "duration_minutes": 94,
     "outcodes": "CH5",
     "town": "DEESIDE"
    },
