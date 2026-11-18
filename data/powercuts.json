@@ -1,6 +1,8 @@
 {
- "checked_at": "2026-11-18T14:55:00.944205+00:00",
- "live": [
+ "checked_at": "2026-11-18T15:25:01.737348+00:00",
+ "live": [],
+ "planned": [],
+ "restored": [
   {
    "ref": "INCD-2511854-i",
    "outcodes": "CH5",
@@ -9,15 +11,12 @@
    "postcode_list": "CH5 3HD, CH5 3HF",
    "started": "Wed 18 Nov, 05:11",
    "eta": "Wed 18 Nov, 14:32",
-   "message": "We have restored power to some properties in the CH5 postcode area of Deeside. To help reduce further disruption while our engineers continue investigating and repairing the fault, the remaining affected properties will be supplied by a temporary generator by 18/11/2026 at 14:32. We apologise for the intermittent power interruptions experienced today and for any inconvenience this has caused. We will provide further updates if the situation changes and thank you for your patience and understanding while we complete our repair work.",
+   "message": "We are currently experiencing problems with the electricity supply in your area.  Our engineers are now working on the fault and we hope to have your electricity restored by 18-NOV-2026 14:32.  Please accept our sincere apologies for the inconvenience this is causing.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2511854-i&postcode=",
-   "restored_at": "",
+   "restored_at": "Wed 18 Nov, 15:23",
    "area": "Queensferry, Connah's Quay, Shotton and Hawarden"
-  }
- ],
- "planned": [],
- "restored": [
+  },
   {
    "ref": "INCD-932991-f",
    "outcodes": "CH8",
@@ -39,12 +38,12 @@
   "year_label": "2026",
   "this_month": 17,
   "this_year": 28,
-  "average_minutes": 238,
+  "average_minutes": 251,
   "longest": {
-   "minutes": 593,
-   "town": "BUCKLEY",
-   "outcodes": "CH7",
-   "date": "29 October"
+   "minutes": 612,
+   "town": "DEESIDE",
+   "outcodes": "CH5",
+   "date": "18 November"
   },
   "by_area": [
    {
@@ -60,8 +59,8 @@
     "area": "Queensferry, Connah's Quay, Shotton and Hawarden",
     "this_year": 10,
     "this_month": 5,
-    "average_minutes": 271,
-    "longest_minutes": 571
+    "average_minutes": 305,
+    "longest_minutes": 612
    },
    {
     "outcode": "CH6",
@@ -103,7 +102,7 @@
    },
    {
     "label": "6 to 12 hours",
-    "count": 6
+    "count": 7
    },
    {
     "label": "Over 12 hours",
@@ -214,8 +213,8 @@
   "recent": [
    {
     "start": "Wed 18 Nov, 05:11",
-    "end": null,
-    "duration_minutes": null,
+    "end": "Wed 18 Nov, 15:23",
+    "duration_minutes": 612,
     "outcodes": "CH5",
     "town": "DEESIDE"
    },
