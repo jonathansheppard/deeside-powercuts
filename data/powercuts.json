@@ -1,14 +1,29 @@
 {
- "checked_at": "2026-11-18T05:30:01.691872+00:00",
- "live": [],
+ "checked_at": "2026-11-18T05:35:01.577973+00:00",
+ "live": [
+  {
+   "ref": "INCD-2511854-i",
+   "outcodes": "CH5",
+   "town": "DEESIDE",
+   "postcodes": 2,
+   "postcode_list": "CH5 3HD, CH5 3HF",
+   "started": "Wed 18 Nov, 05:11",
+   "eta": "Wed 18 Nov, 09:26",
+   "message": "There is a power cut affecting the L6 postcode area of LIVERPOOL We had no advance warning of this and first became aware of it at 05:11 Our next available engineer will attend site to find and fix the fault as quickly and as safely as possible. We apologise for the inconvenience and thank you for your patience.",
+   "planned": false,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2511854-i&postcode=",
+   "restored_at": "",
+   "area": "Queensferry, Connah's Quay, Shotton and Hawarden"
+  }
+ ],
  "planned": [],
  "restored": [],
  "stats": {
   "since": "26 October 2026",
   "month_label": "November",
   "year_label": "2026",
-  "this_month": 16,
-  "this_year": 27,
+  "this_month": 17,
+  "this_year": 28,
   "average_minutes": 238,
   "longest": {
    "minutes": 593,
@@ -28,8 +43,8 @@
    {
     "outcode": "CH5",
     "area": "Queensferry, Connah's Quay, Shotton and Hawarden",
-    "this_year": 9,
-    "this_month": 4,
+    "this_year": 10,
+    "this_month": 5,
     "average_minutes": 271,
     "longest_minutes": 571
    },
@@ -177,11 +192,18 @@
     },
     {
      "label": "18 Nov",
-     "count": 0
+     "count": 1
     }
    ]
   },
   "recent": [
+   {
+    "start": "Wed 18 Nov, 05:11",
+    "end": null,
+    "duration_minutes": null,
+    "outcodes": "CH5",
+    "town": "DEESIDE"
+   },
    {
     "start": "Mon 16 Nov, 11:16",
     "end": "Mon 16 Nov, 11:53",
@@ -313,13 +335,6 @@
     "end": "Sat 31 Oct, 18:25",
     "duration_minutes": 547,
     "outcodes": "CH7, CH5",
-    "town": ""
-   },
-   {
-    "start": "Fri 30 Oct, 18:02",
-    "end": "Sat 31 Oct, 03:33",
-    "duration_minutes": 571,
-    "outcodes": "CH5",
     "town": ""
    }
   ]
