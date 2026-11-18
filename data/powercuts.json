@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-18T10:10:02.187946+00:00",
+ "checked_at": "2026-11-18T10:15:01.524360+00:00",
  "live": [
   {
    "ref": "INCD-2511854-i",
@@ -9,7 +9,7 @@
    "postcode_list": "CH5 3HD, CH5 3HF",
    "started": "Wed 18 Nov, 05:11",
    "eta": "Wed 18 Nov, 12:32",
-   "message": "There is a power cut affecting the CH5 postcode area of HAWARDEN. Our engineers have arrived on site and will work to restore your electricity supply as quickly and as safely as possible. We expect the power to be restored by 18/11/2026 12:32. We apologise for the inconvenience and thank you for your patience.",
+   "message": "We apologise for the further interruption to your electricity supply in the CH5 area of Deeside. Our engineers are on site carrying out network investigations and working to restore power as quickly and safely as possible. We currently expect supplies to be restored by 18/11/2026 at 12:32. If this information changes, we will update you where possible. We regret the inconvenience and appreciate your patience.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2511854-i&postcode=",
    "restored_at": "",
