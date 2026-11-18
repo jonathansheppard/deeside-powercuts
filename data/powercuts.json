@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-18T06:50:01.376782+00:00",
+ "checked_at": "2026-11-18T07:05:01.487008+00:00",
  "live": [],
  "planned": [],
  "restored": [
@@ -11,7 +11,7 @@
    "postcode_list": "CH5 3HD, CH5 3HF",
    "started": "Wed 18 Nov, 05:11",
    "eta": "Wed 18 Nov, 09:26",
-   "message": "There is an unexpected power cut affecting the CH5 postcode area of DEESIDE. Our engineers are onsite. In most cases, our engineers can get your power back on by simply replacing a fuse at the local substation, however, if the fault is complex, this may take us longer to fix. Should this happen, we will keep you updated. We aim to restore power by 18/11/2026, 09:26. We are sorry for the inconvenience and thank you for your patience.",
+   "message": "We have repaired the problem with the electricity supply in your area. There may still be some tidying up to do, and any details have been passed to our Maintenance department, who will attend to it as soon as possible.  Please accept our sincere apologies for any inconvenience in the meantime.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2511854-i&postcode=",
    "restored_at": "Wed 18 Nov, 06:49",
