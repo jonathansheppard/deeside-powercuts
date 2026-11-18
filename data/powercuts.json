@@ -1,8 +1,6 @@
 {
- "checked_at": "2026-11-18T08:20:01.781410+00:00",
- "live": [],
- "planned": [],
- "restored": [
+ "checked_at": "2026-11-18T08:25:01.549382+00:00",
+ "live": [
   {
    "ref": "INCD-2511854-i",
    "outcodes": "CH5",
@@ -14,17 +12,19 @@
    "message": "There is a power cut affecting the CH5 postcode area of HAWARDEN. We are aware of the previous power cuts affecting your area and we apologise for this. Our next available engineer will attend site and the team will work to get your power back on as quickly and as safely as possible. We expect the power to be restored by 18/11/2026 12:32. We apologise for the inconvenience and thank you for your patience.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2511854-i&postcode=",
-   "restored_at": "Wed 18 Nov, 06:49",
+   "restored_at": "",
    "area": "Queensferry, Connah's Quay, Shotton and Hawarden"
   }
  ],
+ "planned": [],
+ "restored": [],
  "stats": {
   "since": "26 October 2026",
   "month_label": "November",
   "year_label": "2026",
   "this_month": 17,
   "this_year": 28,
-  "average_minutes": 233,
+  "average_minutes": 238,
   "longest": {
    "minutes": 593,
    "town": "BUCKLEY",
@@ -45,7 +45,7 @@
     "area": "Queensferry, Connah's Quay, Shotton and Hawarden",
     "this_year": 10,
     "this_month": 5,
-    "average_minutes": 254,
+    "average_minutes": 271,
     "longest_minutes": 571
    },
    {
@@ -80,7 +80,7 @@
    },
    {
     "label": "1 to 3 hours",
-    "count": 9
+    "count": 8
    },
    {
     "label": "3 to 6 hours",
@@ -199,8 +199,8 @@
   "recent": [
    {
     "start": "Wed 18 Nov, 05:11",
-    "end": "Wed 18 Nov, 06:49",
-    "duration_minutes": 98,
+    "end": null,
+    "duration_minutes": null,
     "outcodes": "CH5",
     "town": "DEESIDE"
    },
