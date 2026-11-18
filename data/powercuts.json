@@ -1,6 +1,21 @@
 {
- "checked_at": "2026-11-18T22:20:02.635515+00:00",
- "live": [],
+ "checked_at": "2026-11-18T22:25:01.317360+00:00",
+ "live": [
+  {
+   "ref": "INCD-2512388-i",
+   "outcodes": "CH6",
+   "town": "FLINT",
+   "postcodes": 8,
+   "postcode_list": "CH6 5JW, CH6 5JN, CH6 5DU, CH6 5DV, CH6 5JT, CH6 5JD, CH6 5JH, CH6 5JG",
+   "started": "Wed 18 Nov, 22:09",
+   "eta": "Thu 19 Nov, 02:24",
+   "message": "There is an unplanned power cut affecting the CH6 postcode area of FLINT. We have engineers on the way. Once they arrive, they will get straight to work on investigating the fault. We are aiming to have your power restored by 19/11/2026, 02:24. We are sorry for the inconvenience and thank you for your patience.",
+   "planned": false,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2512388-i&postcode=",
+   "restored_at": "",
+   "area": "Flint and Bagillt"
+  }
+ ],
  "planned": [],
  "restored": [
   {
@@ -36,8 +51,8 @@
   "since": "26 October 2026",
   "month_label": "November",
   "year_label": "2026",
-  "this_month": 17,
-  "this_year": 28,
+  "this_month": 18,
+  "this_year": 29,
   "average_minutes": 251,
   "longest": {
    "minutes": 612,
@@ -65,8 +80,8 @@
    {
     "outcode": "CH6",
     "area": "Flint and Bagillt",
-    "this_year": 1,
-    "this_month": 0,
+    "this_year": 2,
+    "this_month": 1,
     "average_minutes": 93,
     "longest_minutes": 93
    },
@@ -206,11 +221,18 @@
     },
     {
      "label": "18 Nov",
-     "count": 1
+     "count": 2
     }
    ]
   },
   "recent": [
+   {
+    "start": "Wed 18 Nov, 22:09",
+    "end": null,
+    "duration_minutes": null,
+    "outcodes": "CH6",
+    "town": "FLINT"
+   },
    {
     "start": "Wed 18 Nov, 05:11",
     "end": "Wed 18 Nov, 15:23",
@@ -343,13 +365,6 @@
     "duration_minutes": 39,
     "outcodes": "CH7",
     "town": "BUCKLEY"
-   },
-   {
-    "start": "Sat 31 Oct, 09:18",
-    "end": "Sat 31 Oct, 18:25",
-    "duration_minutes": 547,
-    "outcodes": "CH7, CH5",
-    "town": ""
    }
   ]
  }
