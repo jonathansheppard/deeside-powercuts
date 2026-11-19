@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-19T15:15:01.080593+00:00",
+ "checked_at": "2026-11-19T15:25:01.196973+00:00",
  "live": [],
  "planned": [],
  "restored": [
@@ -66,8 +66,8 @@
    "postcodes": 2,
    "postcode_list": "CH5 3HD, CH5 3HF",
    "started": "Wed 18 Nov, 05:11",
-   "eta": "Wed 18 Nov, 14:32",
-   "message": "We are currently experiencing problems with the electricity supply in your area.  Our engineers are now working on the fault and we hope to have your electricity restored by 18-NOV-2026 14:32.  Please accept our sincere apologies for the inconvenience this is causing.",
+   "eta": "Wed 18 Nov, 09:26",
+   "message": "There is a power cut affecting the L6 postcode area of LIVERPOOL We had no advance warning of this and first became aware of it at 05:11 Our next available engineer will attend site to find and fix the fault as quickly and as safely as possible. We apologise for the inconvenience and thank you for your patience.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2511854-i&postcode=",
    "restored_at": "Wed 18 Nov, 15:23",
