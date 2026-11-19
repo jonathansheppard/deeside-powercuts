@@ -1,6 +1,21 @@
 {
- "checked_at": "2026-11-19T08:20:02.318208+00:00",
- "live": [],
+ "checked_at": "2026-11-19T08:30:02.482519+00:00",
+ "live": [
+  {
+   "ref": "INCD-2512442-i",
+   "outcodes": "CH7",
+   "town": "RHYL",
+   "postcodes": 15,
+   "postcode_list": "LL18 3AF, LL18 3AW, LL18 3ER, LL18 3NB, LL18 3ET, LL18 3AN, LL18 3AP, LL18 3EE, LL18 3SG, LL18 3DN, LL18 3DP, LL18 3DR, LL18 3ES, LL18 3ND, CH7 6HE",
+   "started": "Thu 19 Nov, 08:22",
+   "eta": "Thu 19 Nov, 12:37",
+   "message": "There is an unexpected power cut affecting the LL18 postcode area of Rhyl. Our emergency response team has been alerted to investigate the fault. We aim to restore power by 12:37. We apologise for the inconvenience and thank you for your patience.",
+   "planned": false,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2512442-i&postcode=",
+   "restored_at": "",
+   "area": "Mold, Buckley and nearby villages"
+  }
+ ],
  "planned": [],
  "restored": [
   {
@@ -64,8 +79,8 @@
   "since": "26 October 2026",
   "month_label": "November",
   "year_label": "2026",
-  "this_month": 19,
-  "this_year": 30,
+  "this_month": 20,
+  "this_year": 31,
   "average_minutes": 241,
   "longest": {
    "minutes": 612,
@@ -101,8 +116,8 @@
    {
     "outcode": "CH7",
     "area": "Mold, Buckley and nearby villages",
-    "this_year": 11,
-    "this_month": 6,
+    "this_year": 12,
+    "this_month": 7,
     "average_minutes": 247,
     "longest_minutes": 593
    },
@@ -238,11 +253,18 @@
     },
     {
      "label": "19 Nov",
-     "count": 0
+     "count": 1
     }
    ]
   },
   "recent": [
+   {
+    "start": "Thu 19 Nov, 08:22",
+    "end": null,
+    "duration_minutes": null,
+    "outcodes": "CH7",
+    "town": "RHYL"
+   },
    {
     "start": "Wed 18 Nov, 23:23",
     "end": "Thu 19 Nov, 01:23",
@@ -374,13 +396,6 @@
     "end": "Sun 1 Nov, 15:43",
     "duration_minutes": 385,
     "outcodes": "CH7",
-    "town": ""
-   },
-   {
-    "start": "Sat 31 Oct, 16:06",
-    "end": "Sat 31 Oct, 20:18",
-    "duration_minutes": 252,
-    "outcodes": "CH5",
     "town": ""
    }
   ]
