@@ -1,6 +1,21 @@
 {
- "checked_at": "2026-11-19T11:15:01.446632+00:00",
- "live": [],
+ "checked_at": "2026-11-19T11:25:01.590234+00:00",
+ "live": [
+  {
+   "ref": "INCD-2512592-i",
+   "outcodes": "CH5",
+   "town": "",
+   "postcodes": 10,
+   "postcode_list": "CH5 2AZ, CH5 3HJ, CH5 3HD, CH5 3HE, CH5 3HF, CH5 3HX, CH5 3HR, CH5 3HS, CH5 3HU, CH5 2BA",
+   "started": "Thu 19 Nov, 11:05",
+   "eta": "Thu 19 Nov, 14:00",
+   "message": "We are currently experiencing problems with the electricity supply in your area. We are arranging to have engineers investigate the fault, and we hope to have your electricity restored by 19-NOV-2026 14:00. Please accept our sincere apologies for the inconvenience this is causing.",
+   "planned": false,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2512592-i&postcode=",
+   "restored_at": "",
+   "area": "Queensferry, Connah's Quay, Shotton and Hawarden"
+  }
+ ],
  "planned": [],
  "restored": [
   {
@@ -78,8 +93,8 @@
   "since": "26 October 2026",
   "month_label": "November",
   "year_label": "2026",
-  "this_month": 20,
-  "this_year": 31,
+  "this_month": 21,
+  "this_year": 32,
   "average_minutes": 238,
   "longest": {
    "minutes": 612,
@@ -99,8 +114,8 @@
    {
     "outcode": "CH5",
     "area": "Queensferry, Connah's Quay, Shotton and Hawarden",
-    "this_year": 10,
-    "this_month": 5,
+    "this_year": 11,
+    "this_month": 6,
     "average_minutes": 305,
     "longest_minutes": 612
    },
@@ -252,11 +267,18 @@
     },
     {
      "label": "19 Nov",
-     "count": 1
+     "count": 2
     }
    ]
   },
   "recent": [
+   {
+    "start": "Thu 19 Nov, 11:05",
+    "end": null,
+    "duration_minutes": null,
+    "outcodes": "CH5",
+    "town": ""
+   },
    {
     "start": "Thu 19 Nov, 08:22",
     "end": "Thu 19 Nov, 10:38",
@@ -387,13 +409,6 @@
     "start": "Sun 1 Nov, 10:11",
     "end": "Sun 1 Nov, 13:10",
     "duration_minutes": 179,
-    "outcodes": "CH7",
-    "town": ""
-   },
-   {
-    "start": "Sun 1 Nov, 09:18",
-    "end": "Sun 1 Nov, 15:43",
-    "duration_minutes": 385,
     "outcodes": "CH7",
     "town": ""
    }
