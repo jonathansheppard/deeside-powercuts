@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-19T08:30:02.482519+00:00",
+ "checked_at": "2026-11-19T08:45:01.112914+00:00",
  "live": [
   {
    "ref": "INCD-2512442-i",
@@ -9,7 +9,7 @@
    "postcode_list": "LL18 3AF, LL18 3AW, LL18 3ER, LL18 3NB, LL18 3ET, LL18 3AN, LL18 3AP, LL18 3EE, LL18 3SG, LL18 3DN, LL18 3DP, LL18 3DR, LL18 3ES, LL18 3ND, CH7 6HE",
    "started": "Thu 19 Nov, 08:22",
    "eta": "Thu 19 Nov, 12:37",
-   "message": "There is an unexpected power cut affecting the LL18 postcode area of Rhyl. Our emergency response team has been alerted to investigate the fault. We aim to restore power by 12:37. We apologise for the inconvenience and thank you for your patience.",
+   "message": "There is an unplanned power cut affecting the LL18 postcode area of RHYL. We have engineers on the way. Once they arrive, they will get straight to work on investigating the fault. We are aiming to have your power restored by 19/11/2026, 12:37. We are sorry for the inconvenience and thank you for your patience.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2512442-i&postcode=",
    "restored_at": "",
