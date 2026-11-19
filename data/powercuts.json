@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-19T01:25:01.189965+00:00",
+ "checked_at": "2026-11-19T01:50:01.607140+00:00",
  "live": [],
  "planned": [],
  "restored": [
@@ -11,7 +11,7 @@
    "postcode_list": "LL19 9TB, CH8 9JN, CH8 9JS, CH8 9NH, LL19 9SU, CH8 9RD, CH8 9JJ, CH8 9RL, CH8 9UU, CH8 9JY, CH8 9JH, CH8 9RT, CH8 9RS, CH8 9SB, CH8 9RR, CH8 9SA, CH8 9RP, CH8 9RF, CH8 9RE, CH8 9RH, CH8 9RQ, CH8 9RB, CH8 9RG, **** ***, CH8 9JW",
    "started": "Wed 18 Nov, 23:23",
    "eta": "Thu 19 Nov, 01:23",
-   "message": "There is a power cut affecting the CH8 postcode area of HOLYHEAD We had no advance warning of this and first became aware of it at 00:55 Our next available engineer will attend site to find and fix the fault as quickly and as safely as possible. We apologise for the inconvenience and thank you for your patience.",
+   "message": "We have repaired the problem with the electricity supply in your area. There may still be some tidying up to do, and any details have been passed to our Maintenance department, who will attend to it as soon as possible.  Please accept our sincere apologies for any inconvenience in the meantime.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-716081-k&postcode=",
    "restored_at": "Thu 19 Nov, 01:23",
