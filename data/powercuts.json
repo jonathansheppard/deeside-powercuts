@@ -1,6 +1,8 @@
 {
- "checked_at": "2026-11-20T13:35:01.397584+00:00",
- "live": [
+ "checked_at": "2026-11-20T13:50:01.351096+00:00",
+ "live": [],
+ "planned": [],
+ "restored": [
   {
    "ref": "INCD-2513198-i",
    "outcodes": "CH8",
@@ -9,15 +11,12 @@
    "postcode_list": "CH8 8NQ, CH8 8NF, CH8 8ND, CH8 8LX, CH8 8BF",
    "started": "Fri 20 Nov, 12:01",
    "eta": "Fri 20 Nov, 16:16",
-   "message": "There is an unexpected power cut affecting the CH8 postcode area of Lixwm. Our engineers are onsite to find and fix the fault as quickly and as safely as possible. We aim to restore power by 16:16. To protect your equipment, please switch off and unplug all electrical appliances, including your boiler. We apologise for the inconvenience and thank you for your patience.",
+   "message": "There is an unexpected power cut affecting the CH8 postcode area of Lixwm. Our emergency response team has been alerted to investigate the fault. We aim to restore power by 20/11/2026, 16:16. We apologise for the inconvenience and thank you for your patience.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2513198-i&postcode=",
-   "restored_at": "",
+   "restored_at": "Fri 20 Nov, 13:50",
    "area": "Holywell and the coast"
-  }
- ],
- "planned": [],
- "restored": [
+  },
   {
    "ref": "INCD-2512592-i",
    "outcodes": "CH5",
@@ -67,7 +66,7 @@
   "year_label": "2026",
   "this_month": 22,
   "this_year": 33,
-  "average_minutes": 235,
+  "average_minutes": 231,
   "longest": {
    "minutes": 612,
    "town": "DEESIDE",
@@ -112,7 +111,7 @@
     "area": "Holywell and the coast",
     "this_year": 6,
     "this_month": 5,
-    "average_minutes": 217,
+    "average_minutes": 199,
     "longest_minutes": 284
    }
   ],
@@ -123,7 +122,7 @@
    },
    {
     "label": "1 to 3 hours",
-    "count": 12
+    "count": 13
    },
    {
     "label": "3 to 6 hours",
@@ -250,8 +249,8 @@
   "recent": [
    {
     "start": "Fri 20 Nov, 12:01",
-    "end": null,
-    "duration_minutes": null,
+    "end": "Fri 20 Nov, 13:50",
+    "duration_minutes": 109,
     "outcodes": "CH8",
     "town": "HOLYWELL and LIXWM"
    },
