@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-20T11:15:01.707306+00:00",
+ "checked_at": "2026-11-20T11:40:01.473931+00:00",
  "live": [],
  "planned": [],
  "restored": [
@@ -44,20 +44,6 @@
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2512388-i&postcode=",
    "restored_at": "Wed 18 Nov, 23:43",
    "area": "Flint and Bagillt"
-  },
-  {
-   "ref": "INCD-932991-f",
-   "outcodes": "CH8",
-   "town": "",
-   "postcodes": 8,
-   "postcode_list": "CH8 8JG, CH8 8JJ, CH8 8JQ, CH8, CH8 8LS, CH8 8JR, CH8 8JH, CH8 8BL",
-   "started": "Fri 30 Oct, 18:25",
-   "eta": "Wed 18 Nov, 12:00",
-   "message": "There was a fault in your area which has now been resolved. If you are still without Power. please call us on the number displayed below. Central & Southern Scotland: 0845 272 7999 or Cheshire Merseyside North Wales & North Shropshire: 0845 272 2424",
-   "planned": true,
-   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-932991-f&postcode=",
-   "restored_at": "Wed 18 Nov, 12:00",
-   "area": "Holywell and the coast"
   }
  ],
  "stats": {
