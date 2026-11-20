@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-20T10:35:01.462646+00:00",
+ "checked_at": "2026-11-20T10:40:02.106333+00:00",
  "live": [],
  "planned": [],
  "restored": [
@@ -25,7 +25,7 @@
    "postcode_list": "LL18 3AF, LL18 3AW, LL18 3ER, LL18 3NB, LL18 3ET, LL18 3AN, LL18 3AP, LL18 3EE, LL18 3SG, LL18 3DN, LL18 3DP, LL18 3DR, LL18 3ES, LL18 3ND, CH7 6HE",
    "started": "Thu 19 Nov, 08:22",
    "eta": "Thu 19 Nov, 12:37",
-   "message": "We are currently experiencing problems with the electricity supply in your area.  Our engineers are now working on the fault and we hope to have your electricity restored by 19-NOV-2026 12:37.  Please accept our sincere apologies for the inconvenience this is causing.",
+   "message": "There is an unexpected power cut affecting the LL18 postcode area of RHYL. Our engineers are onsite. In most cases, our engineers can get your power back on by simply replacing a fuse at the local substation, however, if the fault is complex, this may take us longer to fix. Should this happen, we will keep you updated. We aim to restore power by 19/11/2026, 12:37. We are sorry for the inconvenience and thank you for your patience.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2512442-i&postcode=",
    "restored_at": "Thu 19 Nov, 10:38",
