@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-20T13:00:02.150561+00:00",
+ "checked_at": "2026-11-20T13:05:01.374502+00:00",
  "live": [
   {
    "ref": "INCD-2513198-i",
@@ -9,7 +9,7 @@
    "postcode_list": "CH8 8NQ, CH8 8NF, CH8 8ND, CH8 8LX, CH8 8BF",
    "started": "Fri 20 Nov, 12:01",
    "eta": "Fri 20 Nov, 16:16",
-   "message": "There is an unplanned power cut affecting the CH8 postcode area of HOLYWELL and LIXWM. We have engineers on the way. Once they arrive, they will get straight to work on investigating the fault. We are aiming to have your power restored by 20/11/2026, 16:16. We are sorry for the inconvenience and thank you for your patience.",
+   "message": "There is an unexpected power cut affecting the CH8 postcode area of HOLYWELL and LIXWM. Our engineers are onsite. In most cases, our engineers can get your power back on by simply replacing a fuse at the local substation, however, if the fault is complex, this may take us longer to fix. Should this happen, we will keep you updated. We aim to restore power by 20/11/2026, 16:16. We are sorry for the inconvenience and thank you for your patience.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2513198-i&postcode=",
    "restored_at": "",
