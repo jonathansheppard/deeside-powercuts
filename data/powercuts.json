@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-21T13:30:02.631721+00:00",
+ "checked_at": "2026-11-21T13:55:01.340951+00:00",
  "live": [],
  "planned": [],
  "restored": [
@@ -11,7 +11,7 @@
    "postcode_list": "CH8 8NQ, CH8 8NF, CH8 8ND, CH8 8LX, CH8 8BF",
    "started": "Fri 20 Nov, 12:01",
    "eta": "Fri 20 Nov, 16:16",
-   "message": "We have repaired the problem with the electricity supply in your area. There may still be some tidying up to do, and any details have been passed to our Maintenance department, who will attend to it as soon as possible.  Please accept our sincere apologies for any inconvenience in the meantime.",
+   "message": "There is an unexpected power cut affecting the CH8 postcode area of Lixwm. Our emergency response team has been alerted to investigate the fault. We aim to restore power by 20/11/2026, 16:16. We apologise for the inconvenience and thank you for your patience.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2513198-i&postcode=",
    "restored_at": "Fri 20 Nov, 13:53",
