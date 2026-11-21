@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-21T13:20:02.212275+00:00",
+ "checked_at": "2026-11-21T13:30:02.631721+00:00",
  "live": [],
  "planned": [],
  "restored": [
@@ -16,20 +16,6 @@
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2513198-i&postcode=",
    "restored_at": "Fri 20 Nov, 13:53",
    "area": "Holywell and the coast"
-  },
-  {
-   "ref": "INCD-2512592-i",
-   "outcodes": "CH5",
-   "town": "",
-   "postcodes": 10,
-   "postcode_list": "CH5 2AZ, CH5 3HJ, CH5 3HD, CH5 3HE, CH5 3HF, CH5 3HX, CH5 3HR, CH5 3HS, CH5 3HU, CH5 2BA",
-   "started": "Thu 19 Nov, 11:05",
-   "eta": "Thu 19 Nov, 14:00",
-   "message": "We are currently experiencing problems with the electricity supply in your area. We are arranging to have engineers investigate the fault, and we hope to have your electricity restored by 19-NOV-2026 14:00. Please accept our sincere apologies for the inconvenience this is causing.",
-   "planned": false,
-   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2512592-i&postcode=",
-   "restored_at": "Thu 19 Nov, 13:33",
-   "area": "Queensferry, Connah's Quay, Shotton and Hawarden"
   }
  ],
  "stats": {
