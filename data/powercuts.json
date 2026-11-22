@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-22T13:45:01.245700+00:00",
+ "checked_at": "2026-11-22T13:50:01.802140+00:00",
  "live": [],
  "planned": [],
  "restored": [
@@ -16,20 +16,6 @@
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-699838-r&postcode=",
    "restored_at": "Sun 22 Nov, 13:23",
    "area": "Flint and Bagillt"
-  },
-  {
-   "ref": "INCD-2513198-i",
-   "outcodes": "CH8",
-   "town": "HOLYWELL and LIXWM",
-   "postcodes": 5,
-   "postcode_list": "CH8 8NQ, CH8 8NF, CH8 8ND, CH8 8LX, CH8 8BF",
-   "started": "Fri 20 Nov, 12:01",
-   "eta": "Fri 20 Nov, 16:16",
-   "message": "There is an unexpected power cut affecting the CH8 postcode area of Lixwm. Our emergency response team has been alerted to investigate the fault. We aim to restore power by 20/11/2026, 16:16. We apologise for the inconvenience and thank you for your patience.",
-   "planned": false,
-   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2513198-i&postcode=",
-   "restored_at": "Fri 20 Nov, 13:53",
-   "area": "Holywell and the coast"
   }
  ],
  "stats": {
