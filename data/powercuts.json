@@ -1,6 +1,21 @@
 {
- "checked_at": "2026-11-22T11:20:02.220604+00:00",
- "live": [],
+ "checked_at": "2026-11-22T11:25:01.474257+00:00",
+ "live": [
+  {
+   "ref": "INCD-699838-r",
+   "outcodes": "CH6",
+   "town": "FLINT",
+   "postcodes": 3,
+   "postcode_list": "CH6 5DT, CH6 5DH, CH6 5JD",
+   "started": "Sun 22 Nov, 11:09",
+   "eta": "Sun 22 Nov, 15:24",
+   "message": "There is a power cut affecting the CH6 postcode area of Flint. Our next available engineer will attend site to find and fix the fault as quickly and as safely as possible. We expect your electricity supply to be restored by 3. 24pm. We apologise for the inconvenience and thank you for your patience.",
+   "planned": false,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-699838-r&postcode=",
+   "restored_at": "",
+   "area": "Flint and Bagillt"
+  }
+ ],
  "planned": [],
  "restored": [
   {
@@ -22,8 +37,8 @@
   "since": "26 October 2026",
   "month_label": "November",
   "year_label": "2026",
-  "this_month": 22,
-  "this_year": 33,
+  "this_month": 23,
+  "this_year": 34,
   "average_minutes": 231,
   "longest": {
    "minutes": 612,
@@ -51,8 +66,8 @@
    {
     "outcode": "CH6",
     "area": "Flint and Bagillt",
-    "this_year": 2,
-    "this_month": 1,
+    "this_year": 3,
+    "this_month": 2,
     "average_minutes": 94,
     "longest_minutes": 94
    },
@@ -208,11 +223,18 @@
     },
     {
      "label": "22 Nov",
-     "count": 0
+     "count": 1
     }
    ]
   },
   "recent": [
+   {
+    "start": "Sun 22 Nov, 11:09",
+    "end": null,
+    "duration_minutes": null,
+    "outcodes": "CH6",
+    "town": "FLINT"
+   },
    {
     "start": "Fri 20 Nov, 12:01",
     "end": "Fri 20 Nov, 13:53",
@@ -345,13 +367,6 @@
     "duration_minutes": 284,
     "outcodes": "CH8",
     "town": "HOLYWELL"
-   },
-   {
-    "start": "Sun 1 Nov, 16:41",
-    "end": "Sun 1 Nov, 20:25",
-    "duration_minutes": 224,
-    "outcodes": "CH5",
-    "town": "DEESIDE"
    }
   ]
  }
