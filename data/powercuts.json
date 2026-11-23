@@ -1,6 +1,21 @@
 {
- "checked_at": "2026-11-23T01:40:02.028269+00:00",
- "live": [],
+ "checked_at": "2026-11-23T01:45:02.310171+00:00",
+ "live": [
+  {
+   "ref": "INCD-2513984-i",
+   "outcodes": "CH7",
+   "town": "MOLD",
+   "postcodes": 3,
+   "postcode_list": "CH7 5EN, CH7 5EL, CH7 5EW",
+   "started": "Mon 23 Nov, 01:35",
+   "eta": "Mon 23 Nov, 05:50",
+   "message": "There is a power cut affecting the CH7 postcode area of MOLD We had no advance warning of this and first became aware of it at 01:35 Our next available engineer will attend site to find and fix the fault as quickly and as safely as possible. We apologise for the inconvenience and thank you for your patience",
+   "planned": false,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2513984-i&postcode=",
+   "restored_at": "",
+   "area": "Mold, Buckley and nearby villages"
+  }
+ ],
  "planned": [],
  "restored": [
   {
@@ -22,8 +37,8 @@
   "since": "26 October 2026",
   "month_label": "November",
   "year_label": "2026",
-  "this_month": 23,
-  "this_year": 34,
+  "this_month": 24,
+  "this_year": 35,
   "average_minutes": 228,
   "longest": {
    "minutes": 612,
@@ -59,8 +74,8 @@
    {
     "outcode": "CH7",
     "area": "Mold, Buckley and nearby villages",
-    "this_year": 12,
-    "this_month": 7,
+    "this_year": 13,
+    "this_month": 8,
     "average_minutes": 238,
     "longest_minutes": 593
    },
@@ -212,11 +227,18 @@
     },
     {
      "label": "23 Nov",
-     "count": 0
+     "count": 1
     }
    ]
   },
   "recent": [
+   {
+    "start": "Mon 23 Nov, 01:35",
+    "end": null,
+    "duration_minutes": null,
+    "outcodes": "CH7",
+    "town": "MOLD"
+   },
    {
     "start": "Sun 22 Nov, 11:09",
     "end": "Sun 22 Nov, 13:23",
@@ -349,13 +371,6 @@
     "duration_minutes": 198,
     "outcodes": "CH7",
     "town": ""
-   },
-   {
-    "start": "Sun 1 Nov, 19:24",
-    "end": "Mon 2 Nov, 00:08",
-    "duration_minutes": 284,
-    "outcodes": "CH8",
-    "town": "HOLYWELL"
    }
   ]
  }
