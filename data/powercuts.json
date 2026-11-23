@@ -1,6 +1,8 @@
 {
- "checked_at": "2026-11-23T02:20:02.317188+00:00",
- "live": [
+ "checked_at": "2026-11-23T02:50:01.472737+00:00",
+ "live": [],
+ "planned": [],
+ "restored": [
   {
    "ref": "INCD-2513984-i",
    "outcodes": "CH7",
@@ -12,12 +14,9 @@
    "message": "There is an unexpected power cut affecting the CH7 postcode area of MOLD. Our engineers are onsite. In most cases, our engineers can get your power back on by simply replacing a fuse at the local substation, however, if the fault is complex, this may take us longer to fix. Should this happen, we will keep you updated. We aim to restore power by 23/11/2026, 05:50. We are sorry for the inconvenience and thank you for your patience.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2513984-i&postcode=",
-   "restored_at": "",
+   "restored_at": "Mon 23 Nov, 02:48",
    "area": "Mold, Buckley and nearby villages"
-  }
- ],
- "planned": [],
- "restored": [
+  },
   {
    "ref": "INCD-699838-r",
    "outcodes": "CH6",
@@ -39,7 +38,7 @@
   "year_label": "2026",
   "this_month": 24,
   "this_year": 35,
-  "average_minutes": 228,
+  "average_minutes": 224,
   "longest": {
    "minutes": 612,
    "town": "DEESIDE",
@@ -76,7 +75,7 @@
     "area": "Mold, Buckley and nearby villages",
     "this_year": 13,
     "this_month": 8,
-    "average_minutes": 238,
+    "average_minutes": 225,
     "longest_minutes": 593
    },
    {
@@ -95,7 +94,7 @@
    },
    {
     "label": "1 to 3 hours",
-    "count": 14
+    "count": 15
    },
    {
     "label": "3 to 6 hours",
@@ -234,8 +233,8 @@
   "recent": [
    {
     "start": "Mon 23 Nov, 01:35",
-    "end": null,
-    "duration_minutes": null,
+    "end": "Mon 23 Nov, 02:48",
+    "duration_minutes": 73,
     "outcodes": "CH7",
     "town": "MOLD"
    },
