@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-23T11:40:01.891277+00:00",
+ "checked_at": "2026-11-23T11:50:02.927381+00:00",
  "live": [],
  "planned": [],
  "restored": [
@@ -25,7 +25,7 @@
    "postcode_list": "CH6 5DT, CH6 5DH, CH6 5JD",
    "started": "Sun 22 Nov, 11:09",
    "eta": "Sun 22 Nov, 15:24",
-   "message": "We are currently experiencing problems with the electricity supply in your area.  We are arranging to have engineers investigate the fault, and we hope to have your electricity restored by 22-NOV-2026 15:24.  Please accept our sincere apologies for the inconvenience this is causing.",
+   "message": "We are currently experiencing problems with the electricity supply in your area.  Our engineers are now working on the fault and we hope to have your electricity restored by 22-NOV-2026 15:24.  Please accept our sincere apologies for the inconvenience this is causing.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-699838-r&postcode=",
    "restored_at": "Sun 22 Nov, 13:23",
