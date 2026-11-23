@@ -1,8 +1,6 @@
 {
- "checked_at": "2026-11-23T03:25:01.609370+00:00",
- "live": [],
- "planned": [],
- "restored": [
+ "checked_at": "2026-11-23T03:30:02.118531+00:00",
+ "live": [
   {
    "ref": "INCD-2513984-i",
    "outcodes": "CH7",
@@ -14,9 +12,12 @@
    "message": "We are currently experiencing problems with the electricity supply in your area.  We are arranging to have engineers investigate the fault, and we hope to have your electricity restored by 23-NOV-2026 07:37.  Please accept our sincere apologies for the inconvenience this is causing.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2513984-i&postcode=",
-   "restored_at": "Mon 23 Nov, 02:48",
+   "restored_at": "",
    "area": "Mold, Buckley and nearby villages"
-  },
+  }
+ ],
+ "planned": [],
+ "restored": [
   {
    "ref": "INCD-699838-r",
    "outcodes": "CH6",
@@ -38,7 +39,7 @@
   "year_label": "2026",
   "this_month": 24,
   "this_year": 35,
-  "average_minutes": 224,
+  "average_minutes": 228,
   "longest": {
    "minutes": 612,
    "town": "DEESIDE",
@@ -75,7 +76,7 @@
     "area": "Mold, Buckley and nearby villages",
     "this_year": 13,
     "this_month": 8,
-    "average_minutes": 225,
+    "average_minutes": 238,
     "longest_minutes": 593
    },
    {
@@ -94,7 +95,7 @@
    },
    {
     "label": "1 to 3 hours",
-    "count": 15
+    "count": 14
    },
    {
     "label": "3 to 6 hours",
@@ -233,8 +234,8 @@
   "recent": [
    {
     "start": "Mon 23 Nov, 01:35",
-    "end": "Mon 23 Nov, 02:48",
-    "duration_minutes": 73,
+    "end": null,
+    "duration_minutes": null,
     "outcodes": "CH7",
     "town": "MOLD"
    },
