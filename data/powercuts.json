@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-24T13:05:02.200620+00:00",
+ "checked_at": "2026-11-24T13:20:02.772527+00:00",
  "live": [],
  "planned": [],
  "restored": [
@@ -30,20 +30,6 @@
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2513984-i&postcode=",
    "restored_at": "Mon 23 Nov, 03:53",
    "area": "Mold, Buckley and nearby villages"
-  },
-  {
-   "ref": "INCD-699838-r",
-   "outcodes": "CH6",
-   "town": "FLINT",
-   "postcodes": 3,
-   "postcode_list": "CH6 5DT, CH6 5DH, CH6 5JD",
-   "started": "Sun 22 Nov, 11:09",
-   "eta": "Sun 22 Nov, 15:24",
-   "message": "There is a power cut affecting the CH6 postcode area of Flint. Our next available engineer will attend site to find and fix the fault as quickly and as safely as possible. We expect your electricity supply to be restored by 3. 24pm. We apologise for the inconvenience and thank you for your patience.",
-   "planned": false,
-   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-699838-r&postcode=",
-   "restored_at": "Sun 22 Nov, 13:23",
-   "area": "Flint and Bagillt"
   }
  ],
  "stats": {
