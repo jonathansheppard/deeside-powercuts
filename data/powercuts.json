@@ -1,7 +1,22 @@
 {
- "checked_at": "2026-11-24T08:15:02.164555+00:00",
+ "checked_at": "2026-11-24T08:25:01.717428+00:00",
  "live": [],
- "planned": [],
+ "planned": [
+  {
+   "ref": "INCD-697120-r",
+   "outcodes": "CH5",
+   "town": "",
+   "postcodes": 1,
+   "postcode_list": "CH5 3PP",
+   "started": "Wed 11 Nov, 11:48",
+   "eta": "Tue 24 Nov, 16:00",
+   "message": "The electricity supply to your premises may currently be affected by planned work. You should have received a letter explaining this. We hope to be able to restore your supplies by 24-NOV-2026 16:00. Please accept our sincere apologies for any inconvenience this is causing.",
+   "planned": true,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-697120-r&postcode=",
+   "restored_at": "",
+   "area": "Queensferry, Connah's Quay, Shotton and Hawarden"
+  }
+ ],
  "restored": [
   {
    "ref": "INCD-2513984-i",
