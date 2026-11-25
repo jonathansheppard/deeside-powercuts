@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-25T02:15:01.973767+00:00",
+ "checked_at": "2026-11-25T02:50:02.317122+00:00",
  "live": [],
  "planned": [],
  "restored": [
@@ -16,20 +16,6 @@
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-697120-r&postcode=",
    "restored_at": "Tue 24 Nov, 16:00",
    "area": "Queensferry, Connah's Quay, Shotton and Hawarden"
-  },
-  {
-   "ref": "INCD-2513984-i",
-   "outcodes": "CH7",
-   "town": "MOLD",
-   "postcodes": 3,
-   "postcode_list": "CH7 5EN, CH7 5EL, CH7 5EW",
-   "started": "Mon 23 Nov, 01:35",
-   "eta": "Mon 23 Nov, 05:50",
-   "message": "There is an unexpected power cut affecting the CH7 postcode area of MOLD. Our engineers are onsite. In most cases, our engineers can get your power back on by simply replacing a fuse at the local substation, however, if the fault is complex, this may take us longer to fix. Should this happen, we will keep you updated. We aim to restore power by 23/11/2026, 05:50. We are sorry for the inconvenience and thank you for your patience.",
-   "planned": false,
-   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2513984-i&postcode=",
-   "restored_at": "Mon 23 Nov, 03:53",
-   "area": "Mold, Buckley and nearby villages"
   }
  ],
  "stats": {
