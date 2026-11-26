@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-26T20:15:01.613161+00:00",
+ "checked_at": "2026-11-26T20:30:02.593005+00:00",
  "live": [],
  "planned": [],
  "restored": [
@@ -11,7 +11,7 @@
    "postcode_list": "CH8 9LH, CH8 9LS, CH8 9LW, CH8 9LT, CH8 9JS, CH8 9LN, CH8 9LL, CH8 9LJ, CH8 9NE",
    "started": "Thu 26 Nov, 19:05",
    "eta": "Thu 26 Nov, 23:20",
-   "message": "There is an unexpected power cut affecting the CH8 postcode area of Gwespyr. Our engineers are onsite. In most cases, our engineers can get your power back on by simply replacing a fuse at the local substation, however, if the fault is complex, this may take us longer to fix. Should this happen, we will keep you updated. We aim to restore power by 26/11/2026, 23:20. We are sorry for the inconvenience and thank you for your patience.",
+   "message": "We have repaired the problem with the electricity supply in your area. There may still be some tidying up to do, and any details have been passed to our Maintenance department, who will attend to it as soon as possible.  Please accept our sincere apologies for any inconvenience in the meantime.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2516156-i&postcode=",
    "restored_at": "Thu 26 Nov, 20:13",
