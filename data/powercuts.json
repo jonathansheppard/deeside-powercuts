@@ -1,14 +1,29 @@
 {
- "checked_at": "2026-11-26T19:05:06.158796+00:00",
- "live": [],
+ "checked_at": "2026-11-26T19:15:02.352987+00:00",
+ "live": [
+  {
+   "ref": "INCD-2516156-i",
+   "outcodes": "CH8",
+   "town": "",
+   "postcodes": 9,
+   "postcode_list": "CH8 9LH, CH8 9LS, CH8 9LW, CH8 9LT, CH8 9JS, CH8 9LN, CH8 9LL, CH8 9LJ, CH8 9NE",
+   "started": "Thu 26 Nov, 19:05",
+   "eta": "Thu 26 Nov, 23:20",
+   "message": "There is an unexpected power cut affecting the CH8 postcode area of Gwespyr. Our emergency response team has been alerted to investigate the fault. We aim to restore power by 23:20. We apologise for the inconvenience and thank you for your patience.",
+   "planned": false,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2516156-i&postcode=",
+   "restored_at": "",
+   "area": "Holywell and the coast"
+  }
+ ],
  "planned": [],
  "restored": [],
  "stats": {
   "since": "26 October 2026",
   "month_label": "November",
   "year_label": "2026",
-  "this_month": 24,
-  "this_year": 35,
+  "this_month": 25,
+  "this_year": 36,
   "average_minutes": 226,
   "longest": {
    "minutes": 612,
@@ -52,8 +67,8 @@
    {
     "outcode": "CH8",
     "area": "Holywell and the coast",
-    "this_year": 6,
-    "this_month": 5,
+    "this_year": 7,
+    "this_month": 6,
     "average_minutes": 200,
     "longest_minutes": 284
    }
@@ -209,11 +224,18 @@
     },
     {
      "label": "26 Nov",
-     "count": 0
+     "count": 1
     }
    ]
   },
   "recent": [
+   {
+    "start": "Thu 26 Nov, 19:05",
+    "end": null,
+    "duration_minutes": null,
+    "outcodes": "CH8",
+    "town": ""
+   },
    {
     "start": "Mon 23 Nov, 01:35",
     "end": "Mon 23 Nov, 03:53",
@@ -345,13 +367,6 @@
     "end": "Mon 2 Nov, 12:43",
     "duration_minutes": 280,
     "outcodes": "CH8",
-    "town": ""
-   },
-   {
-    "start": "Mon 2 Nov, 06:45",
-    "end": "Mon 2 Nov, 10:03",
-    "duration_minutes": 198,
-    "outcodes": "CH7",
     "town": ""
    }
   ]
