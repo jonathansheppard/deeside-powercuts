@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-27T12:20:03.182153+00:00",
+ "checked_at": "2026-11-27T12:55:02.290577+00:00",
  "live": [
   {
    "ref": "INCD-716945-k",
@@ -8,8 +8,8 @@
    "postcodes": 39,
    "postcode_list": "CH5 2PN, CH5 3PG, CH5 2QL, CH5 2QN, CH5 2QW, CH5 2PJ, CH5 2PB, CH5 2PF, CH5 3PQ, CH5 2PS, CH5 2PD, CH5 2PE, CH5 2PL, CH5 2QZ, CH4 2PL, CH5 2QJ, CH5 1SX, CH5 2PT, CH5 2PU, CH5 2PQ, CH5 2PG, CH5 2PA, CH5 2PH, CH5 2PP, CH5 2GX, CH5 2PR, CH5 2PZ, CH5 2UW, CH5 2DD, CH5 1AF, CH55 2PP, CH5 2QP, CH5 2DH, CH5 2DL, CH5 2DT, CH5 2EG, CH5 2QA, CH5 2AL, CH5 3SS",
    "started": "Fri 27 Nov, 11:24",
-   "eta": "Fri 27 Nov, 13:24",
-   "message": "There is an unexpected power cut affecting the CH5 postcode area of DEESIDE. Our engineers are onsite to find and fix the fault as quickly and as safely as possible. We aim to restore power by 27/11/2026, 13:24. To protect your equipment, please switch off and unplug all electrical appliances, including your boiler. We apologise for the inconvenience and thank you for your patience.",
+   "eta": "Fri 27 Nov, 15:00",
+   "message": "We apologise for the continued interruption of power in the CH5 postcode area of DEESIDE. Restoration is taking longer than expected due to ongoing investigations, and we now aim to have power restored by 27/11/2026, 15:00. We will update this message if the information changes. Thank you for your patience.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-716945-k&postcode=",
    "restored_at": "",
