@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-27T10:55:01.767941+00:00",
+ "checked_at": "2026-11-27T11:15:01.899677+00:00",
  "live": [
   {
    "ref": "INCD-2516336-i",
@@ -9,7 +9,7 @@
    "postcode_list": "CH8 7AP, CH8 7AR, CH8 7AJ, CH8 7AH, CH8 7AL, CH8 7AB, CH8",
    "started": "Fri 27 Nov, 10:47",
    "eta": "Fri 27 Nov, 15:02",
-   "message": "There is an unexpected power cut affecting the CH8 postcode area of HOLYWELL. Our emergency response team has been alerted to investigate the fault. We aim to restore power by 15:02. We apologise for the inconvenience and thank you for your patience.",
+   "message": "There is an unplanned power cut affecting the CH8 postcode area of HOLYWELL. We have engineers on the way. Once they arrive, they will get straight to work on investigating the fault. We are aiming to have your power restored by 27/11/2026, 15:02. We are sorry for the inconvenience and thank you for your patience.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2516336-i&postcode=",
    "restored_at": "",
