@@ -1,6 +1,20 @@
 {
- "checked_at": "2026-11-27T11:15:01.899677+00:00",
+ "checked_at": "2026-11-27T11:35:01.644772+00:00",
  "live": [
+  {
+   "ref": "INCD-716945-k",
+   "outcodes": "CH5, CH4",
+   "town": "DEESIDE",
+   "postcodes": 39,
+   "postcode_list": "CH5 2PN, CH5 3PG, CH5 2QL, CH5 2QN, CH5 2QW, CH5 2PJ, CH5 2PB, CH5 2PF, CH5 3PQ, CH5 2PS, CH5 2PD, CH5 2PE, CH5 2PL, CH5 2QZ, CH4 2PL, CH5 2QJ, CH5 1SX, CH5 2PT, CH5 2PU, CH5 2PQ, CH5 2PG, CH5 2PA, CH5 2PH, CH5 2PP, CH5 2GX, CH5 2PR, CH5 2PZ, CH5 2UW, CH5 2DD, CH5 1AF, CH55 2PP, CH5 2QP, CH5 2DH, CH5 2DL, CH5 2DT, CH5 2EG, CH5 2QA, CH5 2AL, CH5 3SS",
+   "started": "Fri 27 Nov, 11:24",
+   "eta": "Fri 27 Nov, 13:24",
+   "message": "There is a power cut affecting the CH5 postcode area of Sandycroft. We aim to restore power by 27/11/2026, 13:24 but may be able to get some customers on sooner. The timeframe may change based on our investigations and the work required to fix the issue. We will keep you updated with any changes. We are sorry for the inconvenience and thank you for your patience.",
+   "planned": false,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-716945-k&postcode=",
+   "restored_at": "",
+   "area": "Queensferry, Connah's Quay, Shotton and Hawarden; Saltney, Broughton and Penyffordd"
+  },
   {
    "ref": "INCD-2516336-i",
    "outcodes": "CH8",
@@ -37,8 +51,8 @@
   "since": "26 October 2026",
   "month_label": "November",
   "year_label": "2026",
-  "this_month": 26,
-  "this_year": 37,
+  "this_month": 27,
+  "this_year": 38,
   "average_minutes": 222,
   "longest": {
    "minutes": 612,
@@ -50,16 +64,16 @@
    {
     "outcode": "CH4",
     "area": "Saltney, Broughton and Penyffordd",
-    "this_year": 3,
-    "this_month": 3,
+    "this_year": 4,
+    "this_month": 4,
     "average_minutes": 247,
     "longest_minutes": 448
    },
    {
     "outcode": "CH5",
     "area": "Queensferry, Connah's Quay, Shotton and Hawarden",
-    "this_year": 11,
-    "this_month": 6,
+    "this_year": 12,
+    "this_month": 7,
     "average_minutes": 291,
     "longest_minutes": 612
    },
@@ -243,11 +257,18 @@
     },
     {
      "label": "27 Nov",
-     "count": 1
+     "count": 2
     }
    ]
   },
   "recent": [
+   {
+    "start": "Fri 27 Nov, 11:24",
+    "end": null,
+    "duration_minutes": null,
+    "outcodes": "CH5, CH4",
+    "town": "DEESIDE"
+   },
    {
     "start": "Fri 27 Nov, 10:47",
     "end": null,
@@ -380,13 +401,6 @@
     "duration_minutes": 76,
     "outcodes": "CH7",
     "town": "MOLD"
-   },
-   {
-    "start": "Tue 3 Nov, 08:51",
-    "end": "Tue 3 Nov, 11:54",
-    "duration_minutes": 182,
-    "outcodes": "CH7",
-    "town": ""
    }
   ]
  }
