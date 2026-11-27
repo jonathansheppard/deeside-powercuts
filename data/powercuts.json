@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-27T11:35:01.644772+00:00",
+ "checked_at": "2026-11-27T11:45:01.583407+00:00",
  "live": [
   {
    "ref": "INCD-716945-k",
@@ -9,7 +9,7 @@
    "postcode_list": "CH5 2PN, CH5 3PG, CH5 2QL, CH5 2QN, CH5 2QW, CH5 2PJ, CH5 2PB, CH5 2PF, CH5 3PQ, CH5 2PS, CH5 2PD, CH5 2PE, CH5 2PL, CH5 2QZ, CH4 2PL, CH5 2QJ, CH5 1SX, CH5 2PT, CH5 2PU, CH5 2PQ, CH5 2PG, CH5 2PA, CH5 2PH, CH5 2PP, CH5 2GX, CH5 2PR, CH5 2PZ, CH5 2UW, CH5 2DD, CH5 1AF, CH55 2PP, CH5 2QP, CH5 2DH, CH5 2DL, CH5 2DT, CH5 2EG, CH5 2QA, CH5 2AL, CH5 3SS",
    "started": "Fri 27 Nov, 11:24",
    "eta": "Fri 27 Nov, 13:24",
-   "message": "There is a power cut affecting the CH5 postcode area of Sandycroft. We aim to restore power by 27/11/2026, 13:24 but may be able to get some customers on sooner. The timeframe may change based on our investigations and the work required to fix the issue. We will keep you updated with any changes. We are sorry for the inconvenience and thank you for your patience.",
+   "message": "There is a power cut in the CH5 postcode area of DEESIDE. We will attempt to reset the network remotely to restore power in stages, and our emergency response team are on their way to the area to investigate the cause of the fault. We are aiming to have your power restored by 27/11/2026, 13:24. We are sorry for the inconvenience and thank you for your patience.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-716945-k&postcode=",
    "restored_at": "",
