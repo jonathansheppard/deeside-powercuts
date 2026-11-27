@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-27T21:00:03.525481+00:00",
+ "checked_at": "2026-11-27T21:15:01.643922+00:00",
  "live": [],
  "planned": [],
  "restored": [
@@ -11,7 +11,7 @@
    "postcode_list": "CH8 7AP, CH8 7AR, CH8 7AJ, CH8 7AH, CH8 7AL, CH8 7AB, CH8",
    "started": "Fri 27 Nov, 10:47",
    "eta": "Fri 27 Nov, 21:00",
-   "message": "We apologise for the ongoing power outage affecting the CH8 area of Holywell. Due to the complexity of an underground cable fault in Bryn Y Felin, restoration is taking longer than originally anticipated. Our engineers are continuing to work safely and efficiently, and we now expect power to be restored by 9:00 PM on 27 November 2026. We will update this message if there are any changes to the current restoration estimate. Thank you for your patience and understanding while we work to resolve the issue.",
+   "message": "We are currently experiencing problems with the electricity supply in your area.  Our engineers are now working on the fault and we hope to have your electricity restored by 27-NOV-2026 21:00.  Please accept our sincere apologies for the inconvenience this is causing.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2516336-i&postcode=",
    "restored_at": "Fri 27 Nov, 20:58",
