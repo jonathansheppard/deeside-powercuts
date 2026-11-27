@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-27T12:10:02.384188+00:00",
+ "checked_at": "2026-11-27T12:20:03.182153+00:00",
  "live": [
   {
    "ref": "INCD-716945-k",
@@ -22,8 +22,8 @@
    "postcodes": 7,
    "postcode_list": "CH8 7AP, CH8 7AR, CH8 7AJ, CH8 7AH, CH8 7AL, CH8 7AB, CH8",
    "started": "Fri 27 Nov, 10:47",
-   "eta": "Fri 27 Nov, 15:02",
-   "message": "There is an unexpected power cut affecting the CH8 postcode area of HOLYWELL. Our engineers are onsite. In most cases, our engineers can get your power back on by simply replacing a fuse at the local substation, however, if the fault is complex, this may take us longer to fix. Should this happen, we will keep you updated. We aim to restore power by 27/11/2026, 15:02. We are sorry for the inconvenience and thank you for your patience.",
+   "eta": "Fri 27 Nov, 19:00",
+   "message": "We apologise for the continued interruption of power in the CH8 postcode area of HOLYWELL. Restoration is taking longer than expected due to an underground cable fault in Bryn Y Felin, and we now aim to have power restored by 27/11/2026, 19:00. We will update this message if the information changes. Thank you for your patience.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2516336-i&postcode=",
    "restored_at": "",
