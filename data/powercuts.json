@@ -1,6 +1,21 @@
 {
- "checked_at": "2026-11-27T10:50:02.988090+00:00",
- "live": [],
+ "checked_at": "2026-11-27T10:55:01.767941+00:00",
+ "live": [
+  {
+   "ref": "INCD-2516336-i",
+   "outcodes": "CH8",
+   "town": "HOLYWELL",
+   "postcodes": 7,
+   "postcode_list": "CH8 7AP, CH8 7AR, CH8 7AJ, CH8 7AH, CH8 7AL, CH8 7AB, CH8",
+   "started": "Fri 27 Nov, 10:47",
+   "eta": "Fri 27 Nov, 15:02",
+   "message": "There is an unexpected power cut affecting the CH8 postcode area of HOLYWELL. Our emergency response team has been alerted to investigate the fault. We aim to restore power by 15:02. We apologise for the inconvenience and thank you for your patience.",
+   "planned": false,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2516336-i&postcode=",
+   "restored_at": "",
+   "area": "Holywell and the coast"
+  }
+ ],
  "planned": [],
  "restored": [
   {
@@ -22,8 +37,8 @@
   "since": "26 October 2026",
   "month_label": "November",
   "year_label": "2026",
-  "this_month": 25,
-  "this_year": 36,
+  "this_month": 26,
+  "this_year": 37,
   "average_minutes": 222,
   "longest": {
    "minutes": 612,
@@ -67,8 +82,8 @@
    {
     "outcode": "CH8",
     "area": "Holywell and the coast",
-    "this_year": 7,
-    "this_month": 6,
+    "this_year": 8,
+    "this_month": 7,
     "average_minutes": 181,
     "longest_minutes": 284
    }
@@ -228,11 +243,18 @@
     },
     {
      "label": "27 Nov",
-     "count": 0
+     "count": 1
     }
    ]
   },
   "recent": [
+   {
+    "start": "Fri 27 Nov, 10:47",
+    "end": null,
+    "duration_minutes": null,
+    "outcodes": "CH8",
+    "town": "HOLYWELL"
+   },
    {
     "start": "Thu 26 Nov, 19:05",
     "end": "Thu 26 Nov, 20:13",
@@ -364,13 +386,6 @@
     "end": "Tue 3 Nov, 11:54",
     "duration_minutes": 182,
     "outcodes": "CH7",
-    "town": ""
-   },
-   {
-    "start": "Mon 2 Nov, 08:03",
-    "end": "Mon 2 Nov, 12:43",
-    "duration_minutes": 280,
-    "outcodes": "CH8",
     "town": ""
    }
   ]
