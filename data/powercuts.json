@@ -1,6 +1,23 @@
 {
- "checked_at": "2026-11-27T15:25:02.240516+00:00",
+ "checked_at": "2026-11-27T15:30:02.630237+00:00",
  "live": [
+  {
+   "ref": "INCD-2516336-i",
+   "outcodes": "CH8",
+   "town": "HOLYWELL",
+   "postcodes": 7,
+   "postcode_list": "CH8 7AP, CH8 7AR, CH8 7AJ, CH8 7AH, CH8 7AL, CH8 7AB, CH8",
+   "started": "Fri 27 Nov, 10:47",
+   "eta": "Fri 27 Nov, 19:00",
+   "message": "We apologise for the continued power outage affecting the CH8 area of Holywell. Our engineers are making good progress in repairing an underground cable fault in Bryn Y Felin and are working to restore electricity as safely and quickly as possible. Current estimates indicate that power should be restored by 7:00 PM on 27 November 2026. If there are any changes to this timescale, we will provide updates wherever possible. We sincerely apologise for the inconvenience and thank you for your patience and understanding while we complete these essential repairs.",
+   "planned": false,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2516336-i&postcode=",
+   "restored_at": "",
+   "area": "Holywell and the coast"
+  }
+ ],
+ "planned": [],
+ "restored": [
   {
    "ref": "INCD-716945-k",
    "outcodes": "CH5, CH4",
@@ -12,26 +29,9 @@
    "message": "We apologise for the continued power disruption affecting customers in the CH5 area of Deeside. Our teams have successfully restored supplies to a number of affected properties; however, some customers remain without power due to faults on the overhead cable network near Dynoplast. As a result, restoration is taking longer than we had originally anticipated.\nEngineers are working as quickly and safely as possible to repair the damage, and we now expect all remaining supplies to be restored by 17:00 on 27/11/2026.\nWe understand how frustrating and inconvenient this outage has been and are very sorry for the disruption caused. We will continue to provide updates should there be any changes to this information. Thank you for your patience and understanding while we work to restore power to all affected customers.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-716945-k&postcode=",
-   "restored_at": "",
+   "restored_at": "Fri 27 Nov, 15:28",
    "area": "Queensferry, Connah's Quay, Shotton and Hawarden; Saltney, Broughton and Penyffordd"
   },
-  {
-   "ref": "INCD-2516336-i",
-   "outcodes": "CH8",
-   "town": "HOLYWELL",
-   "postcodes": 7,
-   "postcode_list": "CH8 7AP, CH8 7AR, CH8 7AJ, CH8 7AH, CH8 7AL, CH8 7AB, CH8",
-   "started": "Fri 27 Nov, 10:47",
-   "eta": "Fri 27 Nov, 19:00",
-   "message": "We apologise for the continued interruption of power in the CH8 postcode area of HOLYWELL. Restoration is taking longer than expected due to an underground cable fault in Bryn Y Felin, and we now aim to have power restored by 27/11/2026, 19:00. We will update this message if the information changes. Thank you for your patience.",
-   "planned": false,
-   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2516336-i&postcode=",
-   "restored_at": "",
-   "area": "Holywell and the coast"
-  }
- ],
- "planned": [],
- "restored": [
   {
    "ref": "INCD-2516156-i",
    "outcodes": "CH8",
@@ -66,7 +66,7 @@
     "area": "Saltney, Broughton and Penyffordd",
     "this_year": 4,
     "this_month": 4,
-    "average_minutes": 247,
+    "average_minutes": 246,
     "longest_minutes": 448
    },
    {
@@ -74,7 +74,7 @@
     "area": "Queensferry, Connah's Quay, Shotton and Hawarden",
     "this_year": 12,
     "this_month": 7,
-    "average_minutes": 291,
+    "average_minutes": 287,
     "longest_minutes": 612
    },
    {
@@ -113,7 +113,7 @@
    },
    {
     "label": "3 to 6 hours",
-    "count": 9
+    "count": 10
    },
    {
     "label": "6 to 12 hours",
@@ -264,8 +264,8 @@
   "recent": [
    {
     "start": "Fri 27 Nov, 11:24",
-    "end": null,
-    "duration_minutes": null,
+    "end": "Fri 27 Nov, 15:28",
+    "duration_minutes": 243,
     "outcodes": "CH5, CH4",
     "town": "DEESIDE"
    },
