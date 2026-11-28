@@ -1,6 +1,21 @@
 {
- "checked_at": "2026-11-28T10:45:02.211733+00:00",
- "live": [],
+ "checked_at": "2026-11-28T11:00:02.890408+00:00",
+ "live": [
+  {
+   "ref": "INCD-2516714-i",
+   "outcodes": "CH6",
+   "town": "FLINT",
+   "postcodes": 22,
+   "postcode_list": "CH6 5RG, CH6 5YS, CH6 5YG, CH6 5YU, CH6 5YT, CH6 5YR, CH6 5TY, CH6 5YP, CH6 5QX, CH6 5HT, CH6 5QZ, CH6 5QY, CH6 5HP, CH6 5HR, CH6 5HN, CH6 5UA, CH6 5TZ, CH6 5TX, CH6 5RF, CH6 5RX, CH6 5RN, CH6 5SW",
+   "started": "Sat 28 Nov, 10:48",
+   "eta": "Sat 28 Nov, 15:03",
+   "message": "There is an unexpected power cut affecting the CH6 postcode area of Flint. Our emergency response team has been alerted to investigate the fault. We aim to restore power by 28/11/2026, 15:03. We apologise for the inconvenience and thank you for your patience.",
+   "planned": false,
+   "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2516714-i&postcode=",
+   "restored_at": "",
+   "area": "Flint and Bagillt"
+  }
+ ],
  "planned": [],
  "restored": [
   {
@@ -50,8 +65,8 @@
   "since": "26 October 2026",
   "month_label": "November",
   "year_label": "2026",
-  "this_month": 27,
-  "this_year": 38,
+  "this_month": 28,
+  "this_year": 39,
   "average_minutes": 232,
   "longest": {
    "minutes": 612,
@@ -79,8 +94,8 @@
    {
     "outcode": "CH6",
     "area": "Flint and Bagillt",
-    "this_year": 3,
-    "this_month": 2,
+    "this_year": 4,
+    "this_month": 3,
     "average_minutes": 107,
     "longest_minutes": 134
    },
@@ -260,11 +275,18 @@
     },
     {
      "label": "28 Nov",
-     "count": 0
+     "count": 1
     }
    ]
   },
   "recent": [
+   {
+    "start": "Sat 28 Nov, 10:48",
+    "end": null,
+    "duration_minutes": null,
+    "outcodes": "CH6",
+    "town": "FLINT"
+   },
    {
     "start": "Fri 27 Nov, 11:24",
     "end": "Fri 27 Nov, 15:28",
@@ -397,13 +419,6 @@
     "duration_minutes": 485,
     "outcodes": "CH5",
     "town": "DEESIDE"
-   },
-   {
-    "start": "Tue 3 Nov, 09:42",
-    "end": "Tue 3 Nov, 10:58",
-    "duration_minutes": 76,
-    "outcodes": "CH7",
-    "town": "MOLD"
    }
   ]
  }
