@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-28T11:00:02.890408+00:00",
+ "checked_at": "2026-11-28T11:15:01.902937+00:00",
  "live": [
   {
    "ref": "INCD-2516714-i",
@@ -9,7 +9,7 @@
    "postcode_list": "CH6 5RG, CH6 5YS, CH6 5YG, CH6 5YU, CH6 5YT, CH6 5YR, CH6 5TY, CH6 5YP, CH6 5QX, CH6 5HT, CH6 5QZ, CH6 5QY, CH6 5HP, CH6 5HR, CH6 5HN, CH6 5UA, CH6 5TZ, CH6 5TX, CH6 5RF, CH6 5RX, CH6 5RN, CH6 5SW",
    "started": "Sat 28 Nov, 10:48",
    "eta": "Sat 28 Nov, 15:03",
-   "message": "There is an unexpected power cut affecting the CH6 postcode area of Flint. Our emergency response team has been alerted to investigate the fault. We aim to restore power by 28/11/2026, 15:03. We apologise for the inconvenience and thank you for your patience.",
+   "message": "There is an unplanned power cut affecting the CH6 postcode area of FLINT. We have engineers on the way. Once they arrive, they will get straight to work on investigating the fault. We are aiming to have your power restored by 28/11/2026, 15:03. We are sorry for the inconvenience and thank you for your patience.",
    "planned": false,
    "link": "https://powercuts.spenergynetworks.co.uk/incident?ref=INCD-2516714-i&postcode=",
    "restored_at": "",
